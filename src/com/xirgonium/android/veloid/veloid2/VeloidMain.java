@@ -128,9 +128,9 @@ public class VeloidMain extends TabActivity {
 		setContentView(R.layout.amain_tabs);
 
 		//--- remove ads on small screens
-		if (isSmallScreen() || noPub) {
+		/*if (isSmallScreen() || noPub) {
 			findViewById(R.id.ad).setVisibility(View.GONE);
-		}
+		}*/
 
 		// --- Restore configuration
 		ConfigurationContext.restoreConfig(this);
@@ -432,7 +432,7 @@ public class VeloidMain extends TabActivity {
 		try {
 			if (ConfigurationContext.getCurrentStationManager(this) instanceof VeloStarRennes) {
 				//--- remove ads on small screens
-				findViewById(R.id.ad).setVisibility(View.GONE);
+				/*findViewById(R.id.ad).setVisibility(View.GONE);*/
 
 				TextView tv = (TextView) findViewById(R.id.legal);
 				tv.setText(R.string.data_provided_by_velostar);

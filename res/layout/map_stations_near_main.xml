@@ -11,5 +11,5 @@
       android:id="@+id/my_map"
       android:layout_width="fill_parent"
       android:layout_height="300px"
-      android:apiKey="..." />
+      android:apiKey="0psH_sulitymMxtDlRGCwddbQ_XIT3IGPZHEaeg" />
   </AbsoluteLayout>
