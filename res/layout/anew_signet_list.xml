@@ -1,0 +1,66 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+ 
+  
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:id="@+id/errorMessage"/>
+    
+<!--     <TextView-->
+<!--        android:id="@+id/network_name"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="@color/favorite_text_color"-->
+<!--        android:background="@drawable/header_titre" -->
+<!--        android:gravity="right|center_vertical"-->
+<!--        android:textSize="20px"-->
+<!--        android:paddingRight="5px"-->
+<!--        android:layout_marginBottom="3px"/>-->
+
+  <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:layout_weight="1">
+    <RadioGroup
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:id="@+id/newFavoriteMatchingStationRadioGroup">
+    </RadioGroup>
+  </ScrollView>
+  
+   <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1"
+        android:gravity="bottom">
+        <TableRow>
+            <Button
+                android:id="@+id/btnValidateSelectedStation"
+                android:text="@string/add"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                 android:textSize="20px"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/btnCancelSearchFavorite"
+                android:text="@string/dialog_btn_cancel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                 android:textSize="20px"
+                android:textStyle="bold"/>
+        </TableRow>
+
+    </TableLayout>
+  
+  
+</LinearLayout>

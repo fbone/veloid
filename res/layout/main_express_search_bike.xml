@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xirgonium.android.view.MenuAdvancedView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:veloid="http://schemas.android.com/apk/res/com.xirgonium.android.veloid"
+  android:layout_height="fill_parent"
+  android:layout_width="fill_parent"
+  android:orientation="vertical"
+  android:gravity="center_horizontal|center_vertical">
+
+  <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/main_bar_i_want"
+    android:textStyle="bold"
+    android:textSize="26px"
+    android:padding="3px"
+    android:paddingLeft="5px"
+    android:textColor="@color/title_txt_color"
+    android:layout_weight="1"
+    android:gravity="top" />
+
+  <com.xirgonium.android.view.FavoriteItemView
+    android:id="@+id/express_search_4_btn"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal|center_vertical"
+    android:padding="3px"
+    android:layout_marginBottom="5px"
+    veloid:innerColor="@color/adv_button_background"
+    veloid:borderColor="@color/adv_button_border">
+
+    <TextView
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/main_bar_bikes_4"
+      android:textSize="26px"
+      android:textStyle="bold"
+      android:gravity="center_horizontal|center_vertical"
+      android:textColor="@color/adv_button_text_color" />
+  </com.xirgonium.android.view.FavoriteItemView>
+  <com.xirgonium.android.view.FavoriteItemView
+    android:id="@+id/express_search_3_btn"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal|center_vertical"
+    android:padding="3px"
+    android:layout_marginBottom="5px"
+    veloid:innerColor="@color/adv_button_background"
+    veloid:borderColor="@color/adv_button_border">
+
+    <TextView
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/main_bar_bikes_3"
+      android:textSize="26px"
+      android:textStyle="bold"
+      android:gravity="center_horizontal|center_vertical"
+      android:textColor="@color/adv_button_text_color" />
+
+  </com.xirgonium.android.view.FavoriteItemView>
+  <com.xirgonium.android.view.FavoriteItemView
+    android:id="@+id/express_search_2_btn"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal|center_vertical"
+    android:padding="3px"
+    android:layout_marginBottom="5px"
+    veloid:innerColor="@color/adv_button_background"
+    veloid:borderColor="@color/adv_button_border">
+
+    <TextView
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/main_bar_bikes_2"
+      android:textSize="26px"
+      android:textStyle="bold"
+      android:gravity="center_horizontal|center_vertical"
+      android:textColor="@color/adv_button_text_color" />
+  </com.xirgonium.android.view.FavoriteItemView>
+  <com.xirgonium.android.view.FavoriteItemView
+    android:id="@+id/express_search_1_btn"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal|center_vertical"
+    android:padding="3px"
+    android:layout_marginBottom="5px"
+    veloid:innerColor="@color/adv_button_background"
+    veloid:borderColor="@color/adv_button_border">
+
+    <TextView
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/main_bar_bikes_1"
+      android:textSize="26px"
+      android:textStyle="bold"
+      android:gravity="center_horizontal|center_vertical"
+      android:textColor="@color/adv_button_text_color" />
+  </com.xirgonium.android.view.FavoriteItemView>
+  <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text=" " />
+  <com.xirgonium.android.view.FavoriteItemView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="3px"
+    android:layout_marginBottom="2px"
+    veloid:innerColor="@color/adv_button2_background"
+    veloid:borderColor="@color/adv_button2_border">
+    <ImageButton
+      android:id="@+id/adv_hide_btn"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:src="@drawable/double_down_arrow"
+      android:background="@color/map_station_item_transparent" />
+  </com.xirgonium.android.view.FavoriteItemView>
+  <!--
+    <Button android:id="@+id/express_search_4_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/main_bar_bikes_4" android:textStyle="bold" android:textSize="26px" /> <Button android:id="@+id/express_search_3_btn" android:layout_width="fill_parent"
+    android:layout_height="wrap_content" android:text="@string/main_bar_bikes_3" android:textStyle="bold" android:textSize="26px" /> <Button android:id="@+id/express_search_2_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/main_bar_bikes_2"
+    android:textStyle="bold" android:textSize="26px" /> <Button android:id="@+id/express_search_1_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/main_bar_bikes_1" android:textStyle="bold" android:textSize="26px" /> <LinearLayout
+    android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center_horizontal"> <ImageButton android:id="@+id/adv_hide_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/double_down_arrow" /> </LinearLayout>
+  -->
+</com.xirgonium.android.view.MenuAdvancedView>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timer_run_replacement_container"
+        android:gravity="left|center_vertical"
+        android:background="@color/list_top_color">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/clock"
+            android:padding="5px"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/timer_run_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5px"
+            android:paddingBottom="5px"
+            android:textColor="@color/title_txt_color"
+            android:background="@color/list_top_color"
+            android:text="@string/timer_run_title"
+            android:textSize="55px" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timer_set_subtitle_container"
+        android:gravity="right"
+        android:background="@color/list_top_color">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10px"
+            android:gravity="right"
+            android:textColor="@color/title_txt_color"
+            android:textSize="20px"
+            android:text="@string/timer_run_subtitle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/list_top_color"
+        android:id="@+id/timer_set_main"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/timer_run_remaining_lbl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/timer_run_remaining_lbl"
+            android:padding="5dip"
+            android:textColor="@color/list_bottom_color" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/timer_run_current_min_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:textSize="60px"
+                android:width="100px"
+                android:typeface="monospace"
+                android:textColor="@color/list_bottom_color"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <TextView
+                android:id="@+id/timer_run_current_separator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:textSize="60px"
+                android:width="20px"
+                android:typeface="monospace"
+                android:textColor="@color/list_bottom_color"
+                android:gravity="center_vertical|center_horizontal"
+                android:text=":" />
+
+            <TextView
+                android:id="@+id/timer_run_current_sec_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:textSize="60px"
+                android:width="100px"
+                android:typeface="monospace"
+                android:textColor="@color/list_bottom_color"
+                android:gravity="center_vertical|center_horizontal" />
+        </LinearLayout>
+
+        <!-- Filter -->
+        <TableLayout
+            android:id="@+id/timer_run_filter_set"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="20dip">
+
+            <TableRow>
+                <TextView
+                    android:text="@string/timer_run_filter_av_bike_lbl"
+                    android:padding="5dip"
+                    android:textColor="@color/list_bottom_color" />
+                <TextView
+                    android:id="@+id/timer_run_filter_av_bikes"
+                    android:text="@string/timer_run_filter_not_filtered"
+                    android:padding="3dip"
+                    android:textColor="@color/list_bottom_color" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/timer_run_filter_free_slot_lbl"
+                    android:padding="3dip"
+                    android:textColor="@color/list_bottom_color" />
+                <TextView
+                    android:id="@+id/timer_run_filter_free_slots"
+                    android:text="@string/timer_run_filter_not_filtered"
+                    android:padding="3dip"
+                    android:textColor="@color/list_bottom_color" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/timer_run_geoloc_lbl"
+                    android:padding="3dip"
+                    android:textColor="@color/list_bottom_color" />
+                <TextView
+                    android:id="@+id/timer_run_geoloc_at_end"
+                    android:text="@string/timer_run_not_activated"
+                    android:padding="3dip"
+                    android:textColor="@color/list_bottom_color" />
+            </TableRow>
+        </TableLayout>
+        <!-- CUSTOM PART END -->
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/list_bottom_color"
+        android:gravity="center_horizontal|center_vertical">
+
+        <ImageButton
+            android:id="@+id/timer_run_btn_geoloc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/world" />
+
+        <ImageButton
+            android:id="@+id/timer_run_btn_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/stop" />
+    </LinearLayout>
+</LinearLayout>

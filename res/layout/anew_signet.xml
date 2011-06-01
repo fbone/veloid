@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_weight="1">
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_favorite_title"
+            android:textSize="30px"
+            android:textStyle="bold"
+            android:textColor="@color/title_txt_color"
+            android:paddingBottom="20px"
+            android:gravity="right" />
+        <TextView
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_favorite_explanation"
+            android:textSize="20px"
+            android:textStyle="bold"
+            android:paddingBottom="20px" />
+
+        <EditText
+            android:id="@+id/newFavoriteSearchPattern"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20px"
+            android:textSize="20px"
+            android:textStyle="bold" />
+
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_favorite_explanation_footer"
+        android:textStyle="italic" />
+        
+    </LinearLayout>
+    
+    <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0,1"
+            android:gravity="bottom"
+            android:layout_weight="2">
+            <TableRow>
+                <Button
+                    android:id="@+id/btnSearchFavorite"
+                    android:text="@string/new_favorite_valid_search"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20px"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/btnCancelSearchFavorite"
+                    android:text="@string/dialog_btn_cancel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20px"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+
+</LinearLayout>
+
+

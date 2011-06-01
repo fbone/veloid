@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xirgonium.android.view.MenuAdvancedView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:veloid="http://schemas.android.com/apk/res/com.xirgonium.android.veloid"
+  android:layout_height="fill_parent"
+  android:layout_width="fill_parent"
+  android:orientation="vertical"
+  android:gravity="center_horizontal|center_vertical">
+
+  <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/main_bar_advanced_title"
+    android:textStyle="bold"
+    android:textSize="26px"
+    android:padding="3px"
+    android:paddingLeft="5px"
+    android:gravity="left|top"
+    android:layout_weight="1"
+    android:layout_marginBottom="5px"
+    android:textColor="@color/title_txt_color" />
+
+  <com.xirgonium.android.view.FavoriteItemView
+   android:id="@+id/adv_add_station_btn"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="left|center_vertical"
+    android:padding="3px"
+    android:layout_marginBottom="5px"
+    veloid:innerColor="@color/adv_button_background"
+    veloid:borderColor="@color/adv_button_border">
+
+    <ImageButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/bookmark_add_big"
+      android:background="@color/map_station_item_transparent" 
+       android:padding="5px"/>
+    <TextView
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/main_bar_advanced_add_fav"
+      android:textSize="26px"
+      android:textStyle="bold"
+      android:gravity="left|center_vertical"
+      android:textColor="@color/adv_button_text_color" 
+      />
+  </com.xirgonium.android.view.FavoriteItemView>
+
+    <com.xirgonium.android.view.FavoriteItemView
+    android:id="@+id/adv_delete_station_btn"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="left|center_vertical"
+    android:padding="3px"
+    android:layout_marginBottom="5px"
+    veloid:innerColor="@color/adv_button_background"
+    veloid:borderColor="@color/adv_button_border">
+      <ImageButton
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bookmark_delete"
+        android:background="@color/map_station_item_transparent" 
+        android:padding="5px"/>
+      <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_bar_advanced_del_fav"
+        android:textSize="26px"
+      android:textStyle="bold"
+      android:gravity="left|center_vertical"
+      android:textColor="@color/adv_button_text_color"/>
+    </com.xirgonium.android.view.FavoriteItemView>
+
+    <com.xirgonium.android.view.FavoriteItemView
+    android:id="@+id/adv_nearest_station_btn"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="left|center_vertical"
+    android:padding="3px"
+    android:layout_marginBottom="5px"
+    veloid:innerColor="@color/adv_button_background"
+    veloid:borderColor="@color/adv_button_border">
+      <ImageButton
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/world"
+        android:background="@color/map_station_item_transparent" 
+        android:padding="5px"/>
+      <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_bar_advanced_filtered_geolocation"
+      android:textSize="26px"
+      android:textStyle="bold"
+      android:gravity="left|center_vertical"
+      android:textColor="@color/adv_button_text_color" />
+    </com.xirgonium.android.view.FavoriteItemView>
+
+   <com.xirgonium.android.view.FavoriteItemView
+    android:id="@+id/adv_timer_btn"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="left|center_vertical"
+    android:padding="3px"
+    android:layout_marginBottom="5px"
+    veloid:innerColor="@color/adv_button_background"
+    veloid:borderColor="@color/adv_button_border">
+      <ImageButton
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/clock"
+        android:background="@color/map_station_item_transparent" 
+        android:padding="5px"/>
+      <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_bar_advanced_timer"
+      android:textSize="26px"
+      android:textStyle="bold"
+      android:gravity="left|center_vertical"
+      android:textColor="@color/adv_button_text_color" />
+    </com.xirgonium.android.view.FavoriteItemView>
+
+    <com.xirgonium.android.view.FavoriteItemView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="3px"
+    android:layout_weight="1"
+    android:layout_marginBottom="2px"
+    veloid:innerColor="@color/adv_button2_background"
+    veloid:borderColor="@color/adv_button2_border">
+      <ImageButton
+        android:id="@+id/adv_hide_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/double_down_arrow" 
+        android:background="@color/map_station_item_transparent"/>
+    </com.xirgonium.android.view.FavoriteItemView>
+</com.xirgonium.android.view.MenuAdvancedView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<managers>
+    <manager location="Amiens" name="Velam" id="velamiens" class="com.xirgonium.android.manager.Velam" />
+    <manager location="Avignon" name="Velopop" id="velopopavignon" class="com.xirgonium.android.manager.VelopopAvignon" />
+    <manager location="Barcelona" name="Bicing" id="bicingbarcelona" class="com.xirgonium.android.manager.BicingBarcelonaStationManager" />
+    <manager location="Besançon" name="Velocité" id="velocitebesancon" class="com.xirgonium.android.manager.VelociteBesanconStationManager" />
+    <manager location="Bordeaux" name="VCub" id="vcubbordeaux" class="com.xirgonium.android.manager.VCubBordeaux" />
+    <manager location="Bruxelles" name="Villo" id="villobruxelles" class="com.xirgonium.android.manager.VilloBruxxelStationManager" />
+    <manager location="Caen" name="Veol" id="veolcaen" class="com.xirgonium.android.manager.VeolCaenStationManager" />
+    <manager location="Cardiff" name="Oybike" id="oybikecardiff" class="com.xirgonium.android.manager.OyBikeCardiffStationManager" />
+    <manager location="Cergy" name="Velo2" id="velo2cergy" class="com.xirgonium.android.manager.Velo2CergyStationManager" />
+    <manager location="Dijon" name="Velodi" id="velodidijon" class="com.xirgonium.android.manager.VelodiDijonStationManager" />
+    <manager location="Dublin" name="Dublinbike" id="dublinbikedublin" class="com.xirgonium.android.manager.DublinBikeStationManager" />
+    <manager location="Farnborough" name="Oybike" id="oybikefarnborough" class="com.xirgonium.android.manager.OyBikeFarnboroughStationManager" />
+    <manager location="La Rochelle" name="Yello" id="yellolarochelle" class="com.xirgonium.android.manager.YelloLaRochelle" />
+    <manager location="Lausanne" name="LausanneRoule" id="lausanneroulelausanne" class="com.xirgonium.android.manager.LausanneRoule" />
+    <manager location="Grenoble" name="Metro Vélo" id="metrovelogrenoble" class="com.xirgonium.android.manager.MetroVeloGrenoble" />
+    <manager location="Lyon" name="Vélov" id="velovlyon" class="com.xirgonium.android.manager.VelovLyonStationManager" />
+    <manager location="Marseille" name="Levélo" id="levelomarseille" class="com.xirgonium.android.manager.LeVeloMarseilleStationManager" />
+    <manager location="Milano" name="BikeMi" id="bikemimilano" class="com.xirgonium.android.manager.BikeMiMilanoStationManager" />
+    <manager location="Montpellier" name="Vélomagg" id="velomaggmontpellier" class="com.xirgonium.android.manager.VelomaggMontpellier" />
+    <manager location="Montreal" name="Bixi" id="biximontreal" class="com.xirgonium.android.manager.BixiMontrealStationManager" />
+    <manager location="Mulhouse" name="Velocité" id="velocitemulhouse" class="com.xirgonium.android.manager.VelociteMulhouse" />
+    <manager location="Nancy" name="Vélostan" id="velostannancy" class="com.xirgonium.android.manager.VeloStanNancyStationManager" />
+    <manager location="Nantes" name="Bicloo" id="bicloonantes" class="com.xirgonium.android.manager.BiclooNantesStationManager" />
+    <manager location="Nice" name="Vélobleu" id="velobleunice" class="com.xirgonium.android.manager.VeloBleuNice2" />
+    <manager location="Orléans" name="Vélo+" id="veloplusorleans" class="com.xirgonium.android.manager.VeloPlusOrleansStationManager" />
+    <manager location="Paris" name="Vélib" id="velib" class="com.xirgonium.android.manager.VelibStationManager" />
+    <manager location="Parma" name="Bicincittà - Parma" id="bicincittaparma" class="com.xirgonium.android.manager.BicincittaParmaStationManager" />
+    <manager location="Perpignan" name="Bip!" id="bipperpignan" class="com.xirgonium.android.manager.BipPerpignanStationManager" />
+    <manager location="PlaineCommune" name="Velcom" id="velcomplainecommune" class="com.xirgonium.android.manager.VelcomPlaineCommune" />
+    <manager location="Reading" name="Oybike" id="oybikereading" class="com.xirgonium.android.manager.OyBikeReadingStationManager" />
+    <manager location="Rennes" name="Velostar" id="velostarrennes" class="com.xirgonium.android.manager.VeloStarRennes" />
+    <manager location="Rio de Janeiro" name="Samba" id="sambario" class="com.xirgonium.android.manager.SambaRioDeJaneiroStationManager" />
+    <manager location="Rouen" name="Cy'clic" id="cyclicrouen" class="com.xirgonium.android.manager.CyclicRouen" />
+    <manager location="St Etienne" name="Velivert" id="velivertstetienne" class="com.xirgonium.android.manager.VeloVertStEtienne" />
+    <manager location="Savigliano" name="Bicincittà - Savigliano" id="bicincittasavigliano" class="com.xirgonium.android.manager.BicincittaSaviglianoStationManager" />
+    <manager location="Roma" name="Roma'n'bike" id="romanbikeroma" class="com.xirgonium.android.manager.RomaNBikeStationManager" />
+    <manager location="Sevilla" name="Sevici" id="sevicisevilla" class="com.xirgonium.android.manager.SeviciSevillaStationManager" />
+    <manager location="Toulouse" name="VélôToulouse" id="velotoulouse" class="com.xirgonium.android.manager.VeloToulouseStationManager" />
+    <manager location="Valence" name="Libello" id="libellovalence" class="com.xirgonium.android.manager.LibelloValence" />
+    <manager location="Vannes" name="Velocea" id="veloceavannes" class="com.xirgonium.android.manager.VeloceaVannes" />
+    <manager location="Washington DC" name="SmartbikeDC" id="smartbikedcwashington" class="com.xirgonium.android.manager.SmartBikeDCWashingtonStationManager" />    
+    <manager location="Zaragoza" name="Bizi" id="bizizaragoza" class="com.xirgonium.android.manager.BiziZaragozaStationManager" />
+    <manager location="Austria" name="NextBike" id="nextbikeaustria" class="com.xirgonium.android.manager.NextBikeAustriaStationManager" />
+    <manager location="Germany" name="NextBike" id="nextbikegermany" class="com.xirgonium.android.manager.NextBikeGermanyStationManager" />
+    <manager location="New Zealand" name="NextBike" id="nextbikenewzealand" class="com.xirgonium.android.manager.NextBikeNewZealandStationManager" />
+</managers>

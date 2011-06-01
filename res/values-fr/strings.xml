@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- Main window -->
+    <string name="main_app_name">Veloid</string>
+    <string name="main_hour_date_format_prefix">A</string>
+    <string name="main_hour_date_format">HH:mm:ss</string>
+    <string name="main_last_update_not_done">Aucune mise à jour</string>
+    <string name="main_update_progress_dialog_title">Téléchargement</string>
+    <string name="main_update_progress_dialog_station_updating">Les stations du réseau sont en cours de téléchargement. Cette opération peut être longue.</string>
+    <string name="main_update_station_list">Voulez-vous vraiment mettre à jour la liste des stations ? Cette action peut être longue et une connexion WIFI est recommandée.</string>
+    <string name="main_nb_stations_grabbed_for_network">stations stockées pour le réseau</string>
+    <string name="main_update_station_list_after_chage">Il semblerai que ce soit la première fois que ce réseau est utilisé. Voulez-vous mettre à jour la liste des stations ?</string>
+    <string name="main_favorite_header_bikes">Vélos</string>
+    <string name="main_favorite_header_slots">Places</string>
+
+    <string name="main_bar_slots_5">5 places</string>
+    <string name="main_bar_slots_4">4 places</string>
+    <string name="main_bar_slots_3">3 places</string>
+    <string name="main_bar_slots_2">2 places</string>
+    <string name="main_bar_slots_1">1 place</string>
+    <string name="main_bar_btn_esbikes_title">Un\nVélo?</string>
+    <string name="main_bar_i_want">Je recherche</string>
+    <string name="main_bar_btn_refresh_title">Rafraîchir</string>
+    <string name="main_bar_btn_advanced_title">Favoris\n/Minuterie</string>
+    <string name="main_bar_advanced_del_fav">Supprimer un favori</string>
+    <string name="main_bar_advanced_add_fav">Ajouter un favori</string>
+    <string name="main_bar_advanced_filtered_geolocation">Vélos ET places ?</string>
+    <string name="main_bar_advanced_title">Autres actions</string>
+    <string name="main_bar_btn_esslots_title">Une\nPlace?</string>
+    <string name="main_bar_bikes_5">5 vélos</string>
+    <string name="main_bar_bikes_4">4 vélos</string>
+    <string name="main_bar_bikes_3">3 vélos</string>
+    <string name="main_bar_bikes_2">2 vélos</string>
+    <string name="main_bar_bikes_1">1 vélo</string>
+    <string name="main_bar_advanced_timer">Minuterie</string>
+    <string name="main_updating_favorite">Chargement des disponibilités des favoris.</string>
+
+
+    <!-- Menu on main -->
+    <string name="menu_station_returned">Stations affichées :</string>
+    <string name="menu_max_station_scanned">Stations scannées :</string>
+    <string name="menu_update_station_list">Mise à jour de la liste des stations</string>
+    <string name="menu_notification">Notifications</string>
+    <string name="menu_network">Réseau :</string>
+    <string name="menu_about">A propos...</string>
+
+    <!-- List of station -->
+    <string name="si_free_slots">Bornes libres</string>
+    <string name="si_available_bikes">Vélos disp.</string>
+
+    <!-- New station form STEP 1-->
+    <string name="new_station_s1_title">Favoris</string>
+    <string name="new_station_s1_part_info_label">Informations partielles sur la station recherchée (adresse, identifiant, ...)</string>
+    <string name="new_station_s1_part_address_label">Ou proche de l\'adresse</string>
+    <string name="new_station_s1_activate_filter_cb">Activation du filtre (seulement pour la recherche par adresse)</string>
+    <string name="new_station_s1_filter_min_slot_lbl">Nombre de places(s) minimum</string>
+    <string name="new_station_s1_filter_min_avb_lbl">Nombre de vélo(s) minimum</string>
+    <string name="new_station_s1_sub_title">Ajout de favori</string>
+
+    <!-- New station form STEP 2 DATABASE-->
+    <string name="new_station_s2_title">Stations trouvée</string>
+    <string name="new_station_s2_selection_no_station_found_label">Aucune station trouvée. Veuillez réessayer :</string>
+
+    <!-- Nearest Station GOOGLEMAPS-->
+    <string name="nearest_station_gm_title">Stations proche</string>
+    <string name="nearest_station_gm__popup_no_address_found_title">Erreur</string>
+    <string name="nearest_station_gm__popup_no_address_found_label">L\'adresse entrée n\'a pas de correspondance</string>
+    <string name="nearest_station_popup_no_address_found_btn">Entrez une nouvelle adresse</string>
+    <string name="nearest_station_popup_favorite_added">Favori ajouté</string>
+    <string name="nearest_station_info_available_bike_prefix_lbl">Vélos :</string>
+    <string name="nearest_station_info_freeslots_prefix_lbl">Places :</string>
+    <string name="nearest_station_progress_dialog_wait">Patientez</string>
+    <string name="nearest_station_filter_info_header">Filtre:</string>
+    <string name="nearest_station_filter_info_av_bikes">vélo :</string>
+    <string name="nearest_station_filter_info_free_slots">- places :</string>
+    <string name="nearest_station_filter_info_not_filtered">n/a</string>
+    <string name="nearest_station_warning_dialog_several_addresses">Préciser l\'adresse</string>
+    <string name="nearest_station_location_providers_broken">Géolocalisation impossible. Vérifiez le statut de votre GPS.</string>
+    <string name="nearest_station_button_geoloc">Géolocalisation</string>
+    <string name="nearest_station_button_refresh">Rafraîchir \nles données</string>
+    <string name="nearest_station_button_recenter_from_map">Centre de\nla carte</string>
+
+    <!-- Delete station form -->
+    <string name="del_station_title">Favoris</string>
+    <string name="del_station_warning_message">Êtes vous sur de vouloir effacer ce favori?</string>
+    <string name="del_station_warning_yes_btn">Oui</string>
+    <string name="del_station_warning_no_btn">Non</string>
+    <string name="del_station_sub_title">Supprimer un favori</string>
+
+    <!-- Timer windows -->
+    <string name="timer_set_title">Timer</string>
+    <string name="timer_set_subtitle">Régler la minuterie</string>
+    <string name="timer_set_timer_label">Minutes avant l\'alarme:</string>
+    <string name="timer_set_geolocalize_at_end">Géolocalisation automatique</string>
+    <string name="timer_set_activate_filter_cb">Activation du filtre</string>
+    <string name="timer_run_title">Timer</string>
+    <string name="timer_run_subtitle">Minuterie en cours</string>
+    <string name="timer_run_remaining_lbl">Minutes restantes :</string>
+    <string name="timer_run_filter_free_slot_lbl">Filtre sur places :</string>
+    <string name="timer_run_filter_av_bike_lbl">Filtres sur vélos :</string>
+    <string name="timer_run_filter_not_filtered">Non filtré</string>
+    <string name="timer_run_geoloc_lbl">Géolocalisation:</string>
+    <string name="timer_run_activated">Oui</string>
+    <string name="timer_run_not_activated">Non</string>
+    <string name="timer_service_started">Minuterie démarrée</string>
+    <string name="timer_service_stopped">Minuterie arrêtée</string>
+    <string name="timer_service_notification_title">Minuterie Veloid</string>
+    <string name="timer_service_notification_subtitle_stop">Minuterie arrêtée</string>
+    <string name="timer_service_notification_subtitle_running">Minuterie lançée</string>
+    <string name="timer_run_popup_timer_ends">Fin de la minuterie!</string>
+    <string name="timer_run_popup_geolocate">Fin de la minuterie! Géolocatisation en cours...</string>
+
+    <!-- Quick start Dialog -->
+    <string name="quick_start_title">Veloid | Démarrage rapide</string>
+    <string name="quick_start_message">Désirez-vous lire un guide de démarrage rapide ? Ce guide vous aidera dans l\'utilisation de Veloid, en fonction de votre profil utilisateur. Cette action ouvre un
+        navigateur web.</string>
+    <string name="quick_start_url">http://www.veloid.fr/fr/quickstart/welcome.htm</string>
+
+    <!-- specific actions -->
+    <string name="specific_action_nextbike">Louer/Rendre un vélo Nextbike (ouvre un navigateur web)</string>
+    <string name="specific_action_nextbike_url_de">https://nextbike.net/m/</string>
+
+
+    <!-- Dialog -->
+    <string name="error_title">Erreur</string>
+    <string name="error_enter_numerical_value">Entrez une valeur numérique</string>
+    <string name="dialog_value_saved">Sauvegarde effectuée</string>
+    <string name="dialog_btn_ok">OK</string>
+    <string name="dialog_btn_cancel">Annuler</string>
+    <string name="dialog_search_ringtone_btn_play_stop">Stop</string>
+    <string name="dialog_search_ringtone_btn_play_play">Jouer</string>
+    <string name="up_one_level">..</string>
+    <string name="current_dir">.</string>
+
+    <string name="error_no_internet_connection">Pas de connexion internet !</string>
+
+    <!-- About dialog -->
+    <string name="about_done_by">Application faite par</string>
+    <string name="about_cyril_gervais">Cyril Gervais (contact@veloid.com)</string>
+    <string name="about_version">Veloid v0.9beta</string>
+    <string name="about_info">Consultez le site http://www.veloid.com pour plus d\'information, de mise à jour, report de bug, suggestions ...etc</string>
+
+    <!-- Notify dialog -->
+    <string name="dialog_notify_set_LED_cb_lbl">LED</string>
+    <string name="dialog_notify_set_vibration_cb_lbl">Vibration</string>
+    <string name="dialog_notify_set_sound_cb_lbl">Son</string>
+
+    <string name="pref_algo_category_title">Filtre (algorithme)</string>
+    <string name="pref_displayed_title">Stations affichées</string>
+    <string name="pref_displayed_subtitle">Nombre de stations affichées sur la carte</string>
+    <string name="pref_scanned_title">Stations scannées</string>
+    <string name="pref_scanned_subtitle">Nombre de stations scannées lors de l\'application du filtre</string>
+    <!-- networks -->
+    <string name="pref_network_category_title">Réseau</string>
+    <string name="pref_network_title">Cliquez</string>
+    <string name="pref_network_subtitle">Pour choisir un réseau</string>
+    <string name="pref_network_dialog_title">Selection d\'un réseau</string>
+    <!-- Notification -->
+    <string name="pref_notif_category_title">Notification de minuterie</string>
+    <string name="pref_notif_led_title">LED</string>
+    <string name="pref_notif_led_subtitle"></string>
+    <string name="pref_notif_sound_title">Son</string>
+    <string name="pref_notif_sound_subtitle_default_ringtone">Sonnerie par défaut</string>
+    <string name="pref_notif_sound_subtitle_no_ringtone">Mode silence</string>
+    <string name="pref_notif_sound_subtitle_custom_ringtone">Personnalisée : </string>
+    <string name="pref_notif_sound_select_ringtone_custom_title">Personnalisée : </string>
+    <string name="pref_notif_sound_select_ringtone_browse">Parcourir...</string>
+
+
+    <string name="pref_notif_vibra_title">Vibration</string>
+    <string name="pref_notif_vibra_subtitle"></string>
+    <!-- update stations -->
+    <string name="pref_update_all_station_category_title">Liste de stations</string>
+    <string name="pref_update_all_station_title">Cliquer</string>
+    <string name="pref_update_all_station_subtitle">pour mettre à jour la liste de stations du réseau sélectionné</string>
+    <!-- delete stations -->
+    <string name="pref_delete_all_station_category_title">Effacer les stations</string>
+    <string name="pref_delete_all_station_title">Cliquez</string>
+    <string name="pref_delete_all_station_subtitle">Pour effacer toutes les stations du réseau en actuel</string>
+    <string name="pref_delete_all_station_confirmation">Voulez vous vraiment effacer toutes les stations du réseau</string>
+    <string name="pref_delete_all_station_confirmed">Toutes les stations ont été effacées</string>
+    <!-- About -->
+    <string name="pref_about_category_title">A propos</string>
+    <string name="pref_about_title">Information</string>
+    <string name="pref_about_sub_author">Auteur: Cyril Gervais</string>
+    <string name="pref_about_sub_version">Version:</string>
+    <string name="pref_about_sub_website">www.veloid.fr</string>
+    <!-- Quick Start -->
+    <string name="pref_quickstart_category_title">Guide de démarrage rapide</string>
+    <string name="pref_quickstart_title">Cliquez</string>
+    <string name="pref_quickstart_subtitle">pour ouvrir le guide de démarrage rapide (Ouvre un navigateur web)</string>
+
+
+    <string name="eula_title">Licence d\'évaluation</string>
+    <string name="eula_btn_accept">Accepter</string>
+    <string name="eula_btn_decline">Refuser</string>
+    <string name="eula_content">
+        Cher utilisateur,\n
+        \n
+        Mrci pour votre téléchargement.
+        Veloid est disponible en tant que version de développement avancée.\n
+        Tout retour et/ou encouragement sera vraiment apprécié. Merci d\'être indulgent, je fais ça
+        sur mon temps libre (!^_^)
+        \n
+        Veloid vous permet d\'utiliser des
+        réseaux de vélo-partage (comme le Vélib de Paris) dans plusieurs villes à travers le
+        monde.
+        \n
+        L\'écran principal dispose des onglets suivants :\n
+
+        - Favoris. Pour visualiser vos favoris. L'ajout de favoris se fait par un clic sur le bouton menu \n Des actions contextuelles sont également disponible par un clic long sur le favori.
+
+        - Recherche. Pour rechercher des vélos ou des places à proximité.\n
+
+        - Carte. Vous serez automatiquement géolocalisé. Des actions sont disponibles par un clic sur le bouton de menu.\n
+
+        - Timer. Il s\'agit d'une minuterie.\n
+
+        - Préférences : Configuration du logiciel.\n
+
+        Un guide d\'utilisation est disponible sur : http://www.veloid.fr/fr
+
+        CE LOGICIEL EST UNE
+        PRE RELEASE ET NE REFLETE PAS LA
+        QUALITE DU LOGICIEL FINAL. IL PEUT
+        CONTIR DES BUGS.
+
+        CONTRAT DE LICENCE UTILISATEUR FINAL (CLUF)
+
+        EN INSTALLANT CE LOGICIEL, VOUS ACCEPTEZ D\'ETRE LIE PAR CE
+        CONTRAT. SI VOUS NE CONSENTEZ PAS A
+        TOUTES LES
+        CLAUSES DE CE CONTRAT,
+        ANNULEZ LE PROCESSUS D'INSTALLATION DU LOGICIEL.
+
+        En téléchargeant Veloid vous obtenez une licence non exclusive pour installer,
+        exécuter et utiliser gratuitement
+        le Logiciel pour une période
+        illimitée. La modification, la reproduction, l'adaptation, la
+        vente, la revente, le prêt
+        avec ou sans condition, la location, la
+        licence ou la sous-licence du
+        Logiciel ou d'un de ses constituants
+        sont interdits (sauf cas expressément décrits dans le présent document). Vous n'êtes pas autorisé à soumettre le Logiciel à
+        des opérations d'ingénierie
+        inverse, de
+        désassemblage, de
+        décompilation
+        ou de traduction, ni à tenter de dégager son code source, ni à
+        permettre à quiconque de se livrer à ces mêmes opérations, à
+        l'exception des cas
+        autorisés par la législation en vigueur. Veloid ne
+        peut pas être redistribué avec votre propre application (freeware,
+        shareware ou
+        commerciale) sans une autorisation écrite
+        de Cyril Gervais.
+        Demade faite à
+        contact@veloid.fr
+
+        EXCLUSION DE GARANTIE
+        Le
+        Logiciel gratuit est fourni "TEL QUEL", sans garantie d'aucune sorte, y compris sans limitation, les garanties
+        commerciale, d'aptitude a
+        un but particulier et de non infraction. En
+        aucun cas
+        Cyril Gervais ne pourra être exposé à une quelconque réclamation, dommages ou autre responsabilité, que ce
+        soit
+        dans une action
+        contractuelle, dommageable ou autrement, provenant de près ou de
+        loin ou en relation avec Veloid ou son utilisation ou autres comportements. Même si le
+        Logiciel devait être
+        déclaré défectueux,
+        vous et non Cyril Gervais assumerez le coût total de tout service
+        et réparation.
+        Cette exclusion de garantie constitue une partie essentielle de ce contrat.
+        CERTAINES
+        JURIDICTIONS N\'AUTORISENT
+        PAS D\'EXCLUSIONS A UNE GARANTIE IMPLICITE, SI TEL EST VOTRE
+        CAS,
+        CETTE RENONCIATION NE VOUS CONCERNE PAS ET VOUS DEVEZ AVOIR D\'AUTRES DROITS LEGAUX SELON VOTRE
+        JURIDICTION.
+
+        TITRE DE PROPRIETE
+        Les titre, droits de propriété et propriété intellectuelle
+        concernant le Logiciel restent à Cyril Gervais et/ou à ses fournisseurs. Le Logiciel est protégé par
+        les
+        lois et
+        traités relatifs aux
+        copyrights. Le titre de propriété et les droits s'y rapportant
+        dans le contenu accédé à travers
+        l'utilisation du Logiciel est le bien du propriétaire effectif du
+        contenu et peut être protégé par
+        les lois en vigueur. La licence ne vous donne aucun droit sur
+        un tel
+        contenu.
+        Vous possédez, le cas échéant, le support sur lequel le Logiciel est enregistré,
+        mais Cyril Gervais conserve la
+        propriété de toutes les copies du Logiciel proprement dit.
+
+        TERMINAISON
+        Le Contrat devient effectif lorsque vous en acceptez les termes et conditions, cette
+        acceptation se
+        manifestant par
+        l'ouverture, l'installation, l'utilisation et/ou la manipulation du
+        Logiciel. La licence prendra fin automatiquement si vous ne vous conformez pas aux limitations
+        décrites dans la
+        présente. En
+        cas de terminaison du contrat, vous devez détruire toutes les copies
+        du Logiciel et de la
+        documentation.
+
+        LIMITATION DE RESPONSABILITE
+        EN AUCUNE CIRCONSTANCE ET SOUS
+        AUCUNE THEORIE LEGALE, ACTE,
+        CONTRAT, OU AUTRE, CYRIL GERVAIS OU SES FOURNISSEURS OU REVENDEURS NE
+        POURRONT ETRE RENDUS RESPONSABLES A VOTRE EGARD OU A CELUI D'UNE AUTRE
+        PERSONNE POUR TOUT
+        DOMMAGE INDIRECT, SPECIAL,
+        ACCIDENTEL, OU
+        CONSECUTIF D'UN QUELCONQUE CARACTERE,
+        INCLUANT SANS LIMITATION,
+        LES DOMMAGES: DE PERTE DE CONTROLE, D'ARRET DE FONCTIONNEMENT, DE PANNE OU DE MAUVAIS
+        FONCTIONNEMENT DE TELEPHONE,
+        D'ORDINATEUR, OU TOUT AUTRE DOMMAGE OU PERTE COMMERCIALE. EN
+        AUCUN CAS CYRIL
+        GERVAIS NE SERA RESPONSABLE
+        AU DELA DU
+        MONTANT RECU DE VOUS PAR CYRIL GERVAIS
+        POUR UNE
+        LICENCE DU LOGICIEL, MEME SI
+        CYRIL GERVAIS AVAIT ETE INFORME DE LA POSSIBLITE DE TELS DOMMAGES, OU POUR TOUTE
+        PLAINTE PROVENANT D'UNE AUTRE PARTIE. CETTE LIMITATION DES RESPONSABILITES PEUT NE
+        PAS S'APPLIQUER A LA
+        RESPONSABILITE POUR MORT
+        OU
+        BLESSURE PHYSIQUE DANS LA MESURE OU LA LOI EN
+        VIGUEUR INTERDIT
+        UNE TELLE LIMITATION. DE PLUS, CERTAINES JURIDICTIONS N'AUTORISENT PAS L'EXCLUSION
+        OU LA LIMITATION DES
+        DOMMAGES ACCIDENTELS OU CONSECUTIFS, SI TEL EST VOTRE CAS, CETTE LIMITATION ET
+        EXCLUSION NE
+        S'APPLIQUE PAS A VOUS.
+
+        ACTIVITES A
+        HAUT
+        RISQUE
+        Le Logiciel n'est pas tolérant aux
+        pannes, il n'est pas
+        conçu, fabriqué ou prévu pour l'utilisation ou la revente comme équipement de contrôle en ligne
+        dans des environnements dangereux nécessitants
+        une exécution sans fautes,
+        comme pour le
+        fonctionnement des installations nucléaires,
+        la
+        navigation
+        aérienne ou les systèmes de communications, le
+        contrôle du trafic aérien, les machines aidant directement au maintient en
+        vie, les
+        systèmes d'armement, dans lesquels une panne du Logiciel peut conduire
+        directement à la mort, des blessures
+        corporelles, ou des dommages physiques ou
+        environnementaux sévères
+        ("Activités à Haut
+        Risque"). Cyril Gervais et ses revendeurs rejettent spécifiquement toute garantie implicite ou expresse
+        d'aptitude pour des activités à haut risque.
+
+        DIVERS
+        Si la copie du
+        Logiciel que vous avez
+        reçu était accompagnée d'une version imprimée ou d'une autre
+        forme de "copie écran" du contrat de licence
+        d'utilisation pour utilisateur final dont les clauses varient de
+        celles de ce contrat,
+        ce serait alors la "copie écran" qui régirait votre utilisation du
+        Logiciel.
+        Si un article de ce contrat est
+        tenu pour non exécutoire, cet article devra être
+        reformulé
+        seulement avec les ajouts
+        nécessaires pour le rendre exécutoire. Ce contrat est régit par les lois de la France (excepté pour les
+        conflits sur les articles de loi). L'application de la
+        convention
+        des nations
+        unies sur les
+        contrats pour la vente internationale de biens est expressément
+        exclue.
+
+    </string>
+
+
+
+    <!-- TAB -->
+    <string name="tab_title_fav">Favoris</string>
+    <string name="tab_title_search">Recherche</string>
+    <string name="tab_title_timer">Timer</string>
+    <string name="tab_title_map">Carte</string>
+
+    <string name="add">Ajouter</string>
+    <string name="remove">Supprimer</string>
+    <string name="bikes">Vélo(s)</string>
+    <string name="slots">Place(s)</string>
+
+    <string name="bikes_label">Vélos : </string>
+    <string name="slots_label">Places : </string>
+
+    <string name="new_favorite_title">Nouveau favori</string>
+    <string name="new_favorite_explanation">Entrer n\'importe quelle information (même partielle) relative au favori recherché :</string>
+    <string name="new_favorite_explanation_footer">Note : Vous pouvez également ajouter un favori directement depuis l\'écran carte.
+    </string>
+
+    <string name="new_favorite_valid_search">Rechercher</string>
+    <string name="new_favorite_select_in_list">Stations correspondantes : </string>
+    <string name="new_favorite_error_no_selection">Aucune selection !</string>
+
+    <string name="remove_favorite_title">Supprimer un favori</string>
+
+    <string name="remove_favorite_select_in_list">Selectionner le favori à supprimer puis cliquer sur le bouton \"Supprimer\": </string>
+
+    <string name="search_explanation">Je recherche </string>
+
+    <string name="map_continue_without_location">Continuer sans géolocalisation</string>
+
+    <string name="map_ctx_menu_enter_address">Centrer sur une adresse</string>
+
+    <string name="map_ctx_menu_current_location">Centrer sur ma position</string>
+
+    <string name="map_ctx_menu_current_map_center">Utiliser le centre de la carte affichée</string>
+
+    <string name="map_ctx_menu_refresh">Rafraîchir les informations</string>
+
+    <string name="timer_set_start_timer">Démarrage</string>
+
+    <string name="timer_set_filter_slots">Place(s)</string>
+    <string name="timer_set_filter_slots_and_bikes">Place(s) et vélo(s)</string>
+
+    <string name="timer_run_filter_on_slots">Filtre sur les places</string>
+
+    <string name="timer_run_filter_on_bikes_and_slots">Filter sur les places</string>
+
+    <string name="stop_timer">Arreter le timer</string>
+
+    <string name="address_i_go">J\'y vais</string>
+
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+
+    <string name="nearest_station_popup_favorite_removed">Favori supprimé</string>
+
+    <string name="config">Paramètres</string>
+
+    <string name="btn_add_to_fav">Définir comme favori</string>
+    <string name="btn_remove_from_fav">Supprimer des favoris</string>
+
+    <string name="btn_back">Retour</string>
+
+    <string name="change_network_update">
+        Après avoir modifié le réseau, il est recommandé de mettre à jour la liste des stations (cette action est également disponible depuis l\'onglet Paramètres). \n Voulez mettre à
+        jour maintenant la liste des stations ?
+    </string>
+
+    <!-- Startup option -->
+    <string name="pref_startup_category_title">Démarrage</string>
+    <string name="pref_startup_starttab_title">Onglet par défaut</string>
+    <string name="pref_startup_starttab_subtitle">Choisir l\'onglet par défaut de l'application.
+    </string>
+
+    <!-- Après b36 -->
+    <string name="favorite_new_name">Nouveau nom</string>
+    <string name="favorite_new_name_reset">Reinitialiser</string>
+
+    <string name="favorite_ctx_menu_rename">Renommer</string>
+    <string name="favorite_ctx_menu_view_on_map">Voir sur la carte</string>
+    <string name="favorite_ctx_menu_delete">Effacer le favori\n</string>
+
+
+    <string name="favorite_ctx_menu_change_color">Changer la couleur du favori</string>
+    <string name="favorite_dialog_new_color">Nouvelle couleur</string>
+
+    <!-- apres b39 -->
+    <string name="pref_favorites_category_title">Favoris</string>
+    <string name="pref_favorites_sortbycolor_title">Trier par couleurs</string>
+    <string name="pref_favorites_sortbycolor_subitle">L\'ordre des couleurs demeure fixe (vert, bleu, rose, orange)</string>
+
+    <string name="map_ctx_menu_molib">Voir avec Molib</string>
+    
+    <string name="data_provided_by_velostar">Les données LE vélo STAR sont issues du site http://data.keolis-rennes.com et sont proposées sous licence Créative Commons by-nc-nd</string>
+
+</resources>

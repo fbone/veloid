@@ -1,0 +1,578 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- Main window -->
+    <string name="main_app_name">Veloid</string>
+    <string name="main_hour_date_format_prefix">At</string>
+    <string name="main_hour_date_format">h:mm:ss a</string>
+    <string name="main_last_update_not_done">No update</string>
+    <string name="main_update_progress_dialog_title">Process running</string>
+    <string name="main_update_progress_dialog_station_updating">The list of the stations is currently updating.
+        This action may
+        take time</string>
+    <string name="main_update_station_list">Do you really want to update the stations list
+        (this action may
+        take time and WIFI connection is recommended)?
+	</string>
+    <string name="main_nb_stations_grabbed_for_network">stations stored for the network</string>
+    <string name="main_update_station_list_after_chage">
+        It\'s the first time you use this network.\nDo you want to update
+        the
+        stations list (this action may take time) ?
+    </string>
+    <string name="main_updating_favorite">
+        Please wait while getting availabilities for your favorites.
+	</string>
+
+
+
+    <string name="main_favorite_header_bikes">Bikes</string>
+    <string name="main_favorite_header_slots">Slots</string>
+
+    <string name="main_bar_i_want">I am searching for</string>
+    <string name="main_bar_bikes_1">1 bike</string>
+    <string name="main_bar_bikes_2">2 bikes</string>
+    <string name="main_bar_bikes_3">3 bikes</string>
+    <string name="main_bar_bikes_4">4 bikes</string>
+    <string name="main_bar_bikes_5">5 bikes</string>
+    <string name="main_bar_slots_1">1 slot</string>
+    <string name="main_bar_slots_2">2 slots</string>
+    <string name="main_bar_slots_3">3 slots</string>
+    <string name="main_bar_slots_4">4 slots</string>
+    <string name="main_bar_slots_5">5 slots</string>
+    <string name="main_bar_btn_esbikes_title">Bikes\nnearby?</string>
+    <string name="main_bar_btn_esslots_title">Slots\nnearby?</string>
+    <string name="main_bar_btn_refresh_title">Refresh</string>
+    <string name="main_bar_btn_advanced_title">Favorites\n/Timer</string>
+
+    <string name="main_bar_advanced_add_fav">Add a favorite</string>
+    <string name="main_bar_advanced_del_fav">Remove a favorite</string>
+    <string name="main_bar_advanced_filtered_geolocation">Bikes AND slots?</string>
+    <string name="main_bar_advanced_timer">Timer</string>
+    <string name="main_bar_advanced_title">Other actions</string>
+
+
+    <!-- Menu on main -->
+
+    <string name="menu_station_returned">Stations returned:</string>
+    <string name="menu_max_station_scanned">Max stations scanned:</string>
+    <string name="menu_update_station_list">Update stations list</string>
+    <string name="menu_notification">Notifications</string>
+    <string name="menu_network">Bike network:</string>
+    <string name="menu_about">About...</string>
+
+    <!-- List of station -->
+    <string name="si_free_slots">Free slots</string>
+    <string name="si_available_bikes">Available bikes</string>
+
+    <!-- New station form STEP 1-->
+    <string name="new_station_s1_title">Favorites</string>
+    <string name="new_station_s1_sub_title">Add a new favorite</string>
+    <string name="new_station_s1_part_info_label">Partial information about the searched
+        station (address,
+        number, ...)</string>
+    <string name="new_station_s1_part_address_label">Or near the address</string>
+    <string name="new_station_s1_activate_filter_cb">Activate filter (valid only for addresses)
+	</string>
+    <string name="new_station_s1_filter_min_slot_lbl">Minimum number of free slot(s)</string>
+    <string name="new_station_s1_filter_min_avb_lbl">Minimum number of available bike(s)</string>
+
+    <!-- New station form STEP 2 DATABASE-->
+    <string name="new_station_s2_title">Matching stations</string>
+    <string name="new_station_s2_selection_no_station_found_label">No stations found, please retry. You entered :
+	</string>
+
+    <!-- Nearest Station GOOGLEMAPS-->
+    <string name="nearest_station_gm_title">Nearest stations</string>
+    <string name="nearest_station_gm__popup_no_address_found_title">Error</string>
+    <string name="nearest_station_gm__popup_no_address_found_label">The entered address does not match any
+        coordonnates, please
+        retry.</string>
+    <string name="nearest_station_popup_no_address_found_btn">Enter a new address</string>
+    <string name="nearest_station_popup_favorite_added">Favorite added</string>
+    <string name="nearest_station_info_available_bike_prefix_lbl">Bikes:</string>
+    <string name="nearest_station_info_freeslots_prefix_lbl">Slots:</string>
+    <string name="nearest_station_progress_dialog_wait">Please wait</string>
+    <string name="nearest_station_filter_info_header">Filter:</string>
+    <string name="nearest_station_filter_info_av_bikes">bikes:</string>
+    <string name="nearest_station_filter_info_free_slots">- slots:</string>
+    <string name="nearest_station_filter_info_not_filtered">n/a</string>
+    <string name="nearest_station_location_providers_broken">Unable to use you location providers (GPS or
+        else). Please
+        check their status before retry</string>
+    <string name="nearest_station_warning_dialog_several_addresses">Please clarify the address</string>
+    <string name="nearest_station_button_refresh">Refresh data \non map</string>
+    <string name="nearest_station_button_recenter_from_map">Use curent \nmap center</string>
+    <string name="nearest_station_button_geoloc">Geolocation</string>
+
+
+    <!-- Delete station form -->
+    <string name="del_station_title">Favorites</string>
+    <string name="del_station_sub_title">Remove a favorite</string>
+    <string name="del_station_warning_message">Are you sure you want to delete that favorite
+	</string>
+    <string name="del_station_warning_yes_btn">Yes</string>
+    <string name="del_station_warning_no_btn">No</string>
+
+    <!-- Timer windows -->
+    <string name="timer_set_title">Timer</string>
+    <string name="timer_set_subtitle">Set the timer</string>
+    <string name="timer_set_timer_label">Minutes before alarm:</string>
+    <string name="timer_set_geolocalize_at_end">Geolocalisation after timeout
+	</string>
+    <string name="timer_set_activate_filter_cb">Activate filter</string>
+    <string name="timer_run_title">Timer</string>
+    <string name="timer_run_subtitle">Timer running</string>
+    <string name="timer_run_remaining_lbl">Remaining minutes:</string>
+    <string name="timer_run_filter_free_slot_lbl">Slots filter:</string>
+    <string name="timer_run_filter_av_bike_lbl">Bikes filter:</string>
+    <string name="timer_run_filter_not_filtered">Not filtered</string>
+    <string name="timer_run_geoloc_lbl">Geolocalization:</string>
+    <string name="timer_run_activated">Yes</string>
+    <string name="timer_run_not_activated">No</string>
+    <string name="timer_service_started">Veloid timer started</string>
+    <string name="timer_service_stopped">Veloid timer stopped</string>
+    <string name="timer_service_notification_title">Veloid timer</string>
+    <string name="timer_service_notification_subtitle_stop">Timer stopped.</string>
+    <string name="timer_service_notification_subtitle_running">Timer is currently running</string>
+    <string name="timer_run_popup_timer_ends">Timer ends!</string>
+    <string name="timer_run_popup_geolocate">Timer ends! You are about to be geolocated.
+	</string>
+
+    <!-- Dialog -->
+    <string name="error_title">Error</string>
+    <string name="error_enter_numerical_value">Enter numerical value</string>
+    <string name="dialog_value_saved">The value has been saved</string>
+    <string name="dialog_btn_ok">OK</string>
+    <string name="dialog_btn_cancel">Cancel</string>
+    <string name="error_no_internet_connection">No internet connection ! Please check your
+        network</string>
+
+    <!-- Quick start Dialog -->
+    <string name="quick_start_title">Quick start guide</string>
+    <string name="quick_start_message">
+        Do you want to read a quick start guide ? It may help you using
+        Veloid
+        depending on the kind of user you are. This action opens a web
+        brower.
+	</string>
+
+    <!-- specific actions -->
+    <string name="specific_action_nextbike">Rent/Return a bike in the Nextbike
+        network (open a web
+        browser)</string>
+    <string name="specific_action_nextbike_url_de">https://nextbike.net/m/
+	</string>
+
+    <!-- About dialog -->
+    <string name="about_done_by">Application made by</string>
+    <string name="about_cyril_gervais">Cyril Gervais (contact@veloid.com)</string>
+    <string name="about_version">Veloid</string>
+    <string name="about_info">Please consult the website
+        http://www.veloid.fr for more
+        information, update, bug report,
+        suggestion ...etc</string>
+
+    <!-- Notify dialog -->
+    <string name="dialog_notify_set_LED_cb_lbl">LED</string>
+    <string name="dialog_notify_set_vibration_cb_lbl">Vibration</string>
+    <string name="dialog_notify_set_sound_cb_lbl">Sound</string>
+
+    <!-- Search Ringtone dialog -->
+    <string name="dialog_search_ringtone_btn_play_play">Play</string>
+    <string name="dialog_search_ringtone_btn_play_stop">Stop</string>
+
+    <!--  Quick start URL -->
+    <string name="quick_start_url">http://www.veloid.fr/en/quickstart/welcome.htm
+	</string>
+    <!-- Preferences -->
+
+
+
+    <!-- scanned stations -->
+    <string name="pref_algo_category_title">Filter algorithm</string>
+    <string name="pref_displayed_title">Displayed stations</string>
+    <string name="pref_displayed_subtitle">Number of stations to be displayed on the map
+        screen
+	</string>
+    <string name="pref_scanned_title">Scanned stations</string>
+    <string name="pref_scanned_subtitle">Number of stations scanned to fit the filter,
+        on the map
+        screen</string>
+    <!-- networks -->
+    <string name="pref_network_category_title">Bike network</string>
+    <string name="pref_network_title">Bike network</string>
+    <string name="pref_network_subtitle">Select a network to work on</string>
+    <string name="pref_network_dialog_title">Select a network</string>
+    <!-- Notification -->
+    <string name="pref_notif_category_title">Timer notifications</string>
+    <string name="pref_notif_led_title">LED</string>
+    <string name="pref_notif_led_subtitle"></string>
+    <string name="pref_notif_sound_title">Sound</string>
+    <string name="pref_notif_sound_subtitle_no_ringtone">Silent mode</string>
+    <string name="pref_notif_sound_subtitle_default_ringtone">Default ringtone</string>
+    <string name="pref_notif_sound_subtitle_custom_ringtone">Custom: </string>
+    <string name="pref_notif_sound_select_ringtone_browse">Browse ...</string>
+
+    <string name="up_one_level">..</string>
+    <string name="current_dir">.</string>
+
+    <string name="pref_notif_vibra_title">Vibration</string>
+    <string name="pref_notif_vibra_subtitle"></string>
+
+    <string name="pref_notif_sound_select_ringtone_custom_title">Custom:</string>
+    <!-- update stations -->
+    <string name="pref_update_all_station_category_title">Stations list</string>
+    <string name="pref_update_all_station_title">Click here</string>
+    <string name="pref_update_all_station_subtitle">to update the station list for the selected
+        network</string>
+    <!-- delete stations -->
+    <string name="pref_delete_all_station_category_title">Clear stations</string>
+    <string name="pref_delete_all_station_title">Click here</string>
+    <string name="pref_delete_all_station_subtitle">to delete all stations from the current network
+	</string>
+    <string name="pref_delete_all_station_confirmation">Do you really want to delete all the stations
+        from the network
+	</string>
+    <string name="pref_delete_all_station_confirmed">All stations has been deleted for the network
+	</string>
+    <!-- About -->
+    <string name="pref_about_category_title">About</string>
+    <string name="pref_about_title">Information</string>
+    <string name="pref_about_sub_author">Author: Cyril Gervais</string>
+    <string name="pref_about_sub_version">Version:</string>
+    <string name="pref_about_sub_website">www.veloid.fr</string>
+    <!-- Quick Start -->
+    <string name="pref_quickstart_category_title">Quick start guide</string>
+    <string name="pref_quickstart_title">Click here</string>
+    <string name="pref_quickstart_subtitle">to open the Veloid quick start guide (open a web
+        browser)
+	</string>
+
+    <!-- Favorite places -->
+    <string name="favorite_dialog_select_title">Choose a favorite place</string>
+    <string name="favorite_dialog_delete_confirmation">Do you really want to delete the place {placeName}?</string>
+    <string name="favorite_dialog_add_title">New favorite place</string>
+    <string name="favorite_dialog_add_name_lbl">Name ?</string>
+    <string name="favorite_popup_add_confirmation">Favorite {placeName} added</string>
+    <string name="favorite_popup_error_name">The name must have at least 1 character.</string>
+    <string name="favorite_popup_error_name_title">Bad entry</string>
+
+
+    <string name="eula_title">Evaluation licence</string>
+    <string name="eula_btn_accept">Accept</string>
+    <string name="eula_btn_decline">Decline</string>
+    <string name="eula_content">
+
+        Dear user,
+\n
+First of all, thank you for your download. 
+Veloid is currently available here as an "advanced draft" work.
+\n
+Any feedback, encouragement can be highly appreciated. Please be indulgent, I am woring on that on my free time.
+ \n            
+Veloid allows you to use some bike sharing networks (Washington smartbikeDC, London Oybike, and other European (mainly French) networks such as Velib in Paris).
+\n
+The new main screen displays 4 tabs : \n
+Favorite \n
+- The first tab is for your favorite, you can add/remove favorite by clicking on the menu button. Contextual actions are aloso available per favorite, you can have them by long pressing the favortie name.
+\n
+\n
+Search \n
+If you are looking for bikes or slots nearby you.
+\n
+\n
+Map \n
+To display stations around you. Click on menu touch to see the available actions.\n
+You can also click on a station to see more details and eventually directly add it as a favorite.
+\n
+\n
+Timer \n
+A Timer. Usefull to not loose so much money :-)
+\n
+\n
+Preferences \n
+To configure Veloid
+
+The full user guide is available on the application website: http://www.veloid.fr/en
+
+        YOU AKNOWLEDGE THAT THE SOFTWARE IS A
+        PRE-RELEASE VERSION THAT DOES NOT
+        REPRESENT
+        THE
+        FINAL PRODUCT. IT MAY
+        CONTAIN BUGS, ERRORS OR OTHER
+        PROBLEMS.
+
+        End user Licence Agreement
+        (EULA) END-USER LICENSE AGREEMENT FOR Veloid
+        IMPORTANT PLEASE READ THE
+        TERMS AND CONDITIONS OF THIS
+        LICENSE
+        AGREEMENT
+        CAREFULLY BEFORE
+        CONTINUING WITH THIS PROGRAM INSTALL:Veloid End-User License
+        Agreement
+        ("EULA") is a legal agreement between you (either an
+        individual
+        or a
+        single entity) and Cyril
+        Gervais. for the Cyril Gervais Veloid
+        Software(s) identified above which may include associated software
+        components,
+        media, printed materials, and "online" or electronic
+        documentation ("Veloid
+        Software"). By installing, copying, or otherwise
+        using the Veloid
+        Software,
+        you agree to be bound by the terms of this
+        EULA. This license agreement
+        represents the entire agreement concerning
+        the
+        program between you and
+        Cyril
+        Gervais, (referred to as "licenser"),
+        and it supersedes any prior proposal,
+        representation, or understanding
+        between the parties. If you do not
+        agree to
+        the terms of
+        this EULA, do
+        not install or use the Veloid Software.
+
+        The Veloid Software is
+        protected by copyright laws and international
+        copyright treaties, as
+        well as other intellectual property laws and
+        treaties. The
+        Veloid
+        Software is licensed, not sold.
+
+        1. GRANT OF LICENSE. The Veloid
+        Software is licensed as follows:
+
+        (a) Installation and Use. Cyril
+        Gervais grants you the right to install
+        and use
+        copies of the Veloid
+        Software on your phone running under
+        Andoid™
+
+        (b) Backup Copies. You may
+        also make copies of the Veloid Software as may
+        be necessary for backup
+        and archival purposes.
+
+        2.
+        DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS.
+        (a) Maintenance of
+        Copyright Notices. You must not remove or alter any
+        copyright notices
+        on any and all
+        copies of the Veloid Software. (b)
+        Distribution.
+        You may not distribute
+        registered copies of the Veloid
+        Software to third parties. (c)
+        Prohibition on
+        Reverse Engineering,
+        Decompilation, and Disassembly. You may not reverse
+        engineer,
+        decompile, or
+        disassemble the Veloid Software, except and
+        only to the
+        extent that such activity is expressly permitted by applicable law
+        notwithstanding this limitation. (d) Rental. You may not rent, lease,
+        or
+        lend the
+        Veloid Software. (e) Compliance with Applicable Laws. You
+        must comply with
+        all applicable laws regarding use of the Veloid
+        Software.
+
+        3. TERMINATION Without prejudice to any other rights,
+        Cyril
+        Gervais may
+        terminate this EULA if you fail to comply with the terms
+        and
+        conditions of this
+        EULA. In such event, you must destroy all copies
+        of the Veloid Software in
+        your possession.
+
+        4.
+        COPYRIGHT All title,
+        including but not limited to copyrights, in and
+        to the Veloid Software
+        and any copies thereof are owned by Cyril
+        Gervais. All
+        title and
+        intellectual property rights in and to
+        the content which may be
+        accessed through use of the Veloid Software is the property of the
+        respective
+        content owner and may be protected by applicable copyright
+        or other
+        intellectual property laws
+        and treaties. This EULA grants you
+        no
+        rights to use such
+        content. All rights not expressly granted are
+        reserved by Cyril Gervais.
+
+        5. NO WARRANTIES Cyril Gervais expressly
+        disclaims any warranty for
+        the
+        Veloid Software. The Veloid Software is
+        provided "As Is" without any
+        express or
+        implied warranty of any kind,
+        including but not limited to any warranties of
+        merchantability,
+        noninfringement, or
+        fitness of a particular purpose.
+        Cyril
+        Gervais does
+        not warrant or assume responsibility for the accuracy or
+        completeness
+        of any information, text, graphics, links or other items
+        contained
+        within the
+        Veloid Software. Cyril Gervais makes no warranties
+        respecting any
+        harm that may be caused by the transmission of a
+        computer virus, worm,
+        time
+        bomb, logic bomb, or other such computer
+        program. Cyril
+        Gervais further
+        expressly disclaims any warranty or
+        representation to Authorized Users
+        or to any
+        third party.
+
+        6. LIMITATION
+        OF LIABILITY In no event shall Cyril Gervais be liable for
+        any damages
+        (including, without limitation, lost profits, business
+        interruption, or
+        lost information) rising out of Authorized Users' use
+        of or inability
+        to use the Veloid Software, even if Cyril Gervais has
+        been
+        advised of
+        the possibility of such damages. In no event will Cyril Gervais be
+        liable for loss of data or for indirect, special, incidental,
+        consequential (including lost profit), or other
+        damages based in
+        contract, tort or otherwise. Cyril Gervais shall have no liability
+        with respect to the
+        content of the Veloid Software or any part thereof,
+        including but not limited
+        to errors or
+        omissions contained therein,
+        libel, infringements of
+        rights
+        of publicity, privacy, trademark rights,
+        business interruption, personal
+        injury, loss of privacy, moral rights
+        or the disclosure of
+        confidential
+        information.
+    </string>
+
+
+    <!-- TAB -->
+    <string name="tab_title_fav">Favorites</string>
+    <string name="tab_title_search">Search</string>
+    <string name="tab_title_timer">Timer</string>
+    <string name="tab_title_map">Map</string>
+
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="bikes">Bike(s)</string>
+    <string name="slots">Slot(s)</string>
+
+    <string name="bikes_label">Bikes: </string>
+    <string name="slots_label">Slots: </string>
+
+    <string name="new_favorite_title">New favorite</string>
+    <string name="new_favorite_explanation">Enter any information (even partial) related to the favorite you are searching for:</string>
+    <string name="new_favorite_explanation_footer">
+        Note: You can also add favorites directly from the map
+    </string>
+
+    <string name="new_favorite_valid_search">Search</string>
+    <string name="new_favorite_select_in_list">Matching stations: </string>
+    <string name="new_favorite_error_no_selection">No selection!</string>
+
+    <string name="remove_favorite_title">Delete a favorite</string>
+
+    <string name="remove_favorite_select_in_list">Select the favorite to remove and click \"Remove\": </string>
+
+    <string name="search_explanation">I am searching for </string>
+
+    <string name="map_continue_without_location">Continue without location</string>
+
+    <string name="map_ctx_menu_enter_address">Go to an address</string>
+
+    <string name="map_ctx_menu_current_location">Current location</string>
+
+    <string name="map_ctx_menu_current_map_center">Use center of map on screen</string>
+
+    <string name="map_ctx_menu_refresh">Around me</string>
+    
+     <string name="map_ctx_menu_molib">Open Molib (requires Layar)</string>
+
+    <string name="timer_set_start_timer">Start</string>
+
+    <string name="timer_set_filter_slots">Slot(s)</string>
+    <string name="timer_set_filter_slots_and_bikes">Slot(s) and bike(s)</string>
+
+    <string name="timer_run_filter_on_slots">Filter on slots</string>
+
+    <string name="timer_run_filter_on_bikes_and_slots">Filter on slots</string>
+
+
+    <string name="stop_timer">Stop the timer</string>
+
+    <string name="address_i_go">Get me there</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="nearest_station_popup_favorite_removed">Favorite removed</string>
+
+    <string name="config">Parameters</string>
+
+    <string name="btn_add_to_fav">Set as favorite</string>
+    <string name="btn_remove_from_fav">Remove favorite</string>
+
+    <string name="btn_back">Back</string>
+
+    <string name="change_network_update">It is highly recommended to update the stations list after your change. An option in the preference tab allows you to update the stations list whenever you want.
+        Do you want to update the stations list (this action may take time and a WIFI connexion is recommended)?</string>
+
+    <!-- Startup option -->
+    <string name="pref_startup_category_title">Startup options</string>
+    <string name="pref_startup_starttab_title">Tab on startup</string>
+    <string name="pref_startup_starttab_subtitle">Select the tab displayed at startup
+    </string>
+
+    <!-- Après b36 -->
+    <string name="favorite_new_name">New name of the favorite:</string>
+    <string name="favorite_new_name_reset">Reset to original</string>
+
+    <string name="favorite_ctx_menu_rename">Rename</string>
+    <string name="favorite_ctx_menu_view_on_map">View on map</string>
+    <string name="favorite_ctx_menu_delete">Delete the favorite\n</string>
+    
+    <string name="favorite_ctx_menu_change_color">Change the color in list</string>
+    <string name="favorite_dialog_new_color">New color</string>
+    
+    <!-- Apres b39 -->
+    <string name="pref_favorites_category_title">Favorites</string>
+    <string name="pref_favorites_sortbycolor_title">Sort by colors</string>
+    <string name="pref_favorites_sortbycolor_subitle">The sort order can\'t be changed (green, blue, pink, orange)</string>
+    
+<string name="data_provided_by_velostar">LE vélo STAR data are provided by http://data.keolis-rennes.com and are under the Creative Commons by-nc-nd licence</string>
+</resources>

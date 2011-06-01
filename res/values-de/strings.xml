@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- Main window -->
+    <string name="main_app_name">Veloid</string>
+    <string name="main_hour_date_format_prefix">Um</string>
+    <string name="main_hour_date_format">hh:mm:ss</string>
+    <string name="main_last_update_not_done">Keine Aktualisierung vorgenommen</string>
+    <string name="main_update_progress_dialog_title">Aktualisierung läuft</string>
+    <string name="main_update_progress_dialog_station_updating">Die Stationsliste wird derzeit aktualisiert</string>
+    <string name="main_update_station_list">Möchten Sie die Stationsliste aktualisieren (Dieser Vorgang kann einige Zeit dauern)?</string>
+    <string name="main_nb_stations_grabbed_for_network">Stationen für dieses Verleihsystem gespeichert</string>
+    <string name="main_update_station_list_after_chage">
+        Sie nutzen dieses Verleihsystem zum ersten Mal.\nMöchten Sie die Stationsliste aktualisieren (Dieser Vorgang kann einige Zeit dauern)?
+    </string>
+    <string name="main_favorite_header_bikes">Räder</string>
+    <string name="main_favorite_header_slots">Plätze</string>
+    <string name="del_station_sub_title">Favorit löschen</string>
+<string name="nearest_station_button_recenter_from_map">Kartenzentrum\nnutzen</string>
+<string name="new_station_s1_sub_title">Favorit hinzufügen</string>
+<string name="main_bar_slots_5">5 Stellplätze</string>
+<string name="main_bar_slots_4">4 Stellplätze</string>
+<string name="main_bar_slots_3">3 Stellplätze</string>
+<string name="main_bar_slots_2">2 Stellplätze</string>
+<string name="main_bar_slots_1">1 Stellplatz</string>
+<string name="main_bar_btn_esbikes_title">Nahe\nRäder?</string>
+<string name="main_bar_i_want">Ich suche nach</string>
+<string name="main_bar_btn_refresh_title">Aktualisieren</string>
+<string name="main_bar_btn_advanced_title">Favoriten\n/Timer</string>
+<string name="nearest_station_button_refresh">Karte \naktualisieren</string>
+
+<string name="main_bar_advanced_del_fav">Remove a favorite</string>
+<string name="specific_action_nextbike_url_de">https://nextbike.net/m/?referrer=nextbike.de</string>
+<string name="main_bar_advanced_add_fav">Favorit hinzufügen</string>
+<string name="main_bar_advanced_filtered_geolocation">Gefilterte Position</string>
+<string name="main_bar_advanced_title">Andere Aktionen</string>
+<string name="main_bar_btn_esslots_title">Nahe\nPlätze?</string>
+<string name="main_bar_bikes_5">5 Räder</string>
+<string name="main_bar_bikes_4">4 Räder</string>
+<string name="main_bar_bikes_3">3 Räder</string>
+<string name="main_bar_bikes_2">2 Räder</string>
+<string name="main_bar_bikes_1">1 Rad</string>
+<string name="nearest_station_button_geoloc">Geoposition\nnutzen</string>
+
+<string name="main_bar_advanced_timer">Timer</string>
+<string name="main_updating_favorite">Bitte haben Sie einen Moment Geduld während Ihre Favoriten aktualisiert werden.</string>
+
+    <!-- Menu on main -->
+
+    <string name="menu_station_returned">Stationen zurück gegeben:</string>
+    <string name="menu_max_station_scanned">Max. gefilterte Stationen:</string>
+    <string name="menu_update_station_list">Stationsliste aktualisieren</string>
+    <string name="menu_notification">Hinweise</string>
+    <string name="menu_network">Verleihsystem:</string>
+    <string name="menu_about">Über...</string>
+
+    <!-- List of station -->
+    <string name="si_free_slots">Freie Stellplätze</string>
+    <string name="si_available_bikes">Verfügbare Räder</string>
+
+    <!-- New station form STEP 1-->
+    <string name="new_station_s1_title">Neue Station hinzufügen</string>
+    <string name="new_station_s1_part_info_label">Informationen über die gesuchte Station (Adresse, Nummer, ...)</string>
+    <string name="new_station_s1_part_address_label">Oder in der Nähe der Adresse</string>
+    <string name="new_station_s1_activate_filter_cb">Filter aktivieren (nur für Adressen gültig)</string>
+    <string name="new_station_s1_filter_min_slot_lbl">Mindestanzahl freier Stellplätze</string>
+    <string name="new_station_s1_filter_min_avb_lbl">Mindestanzahl verfügbarer Räder</string>
+
+    <!-- New station form STEP 2 DATABASE-->
+    <string name="new_station_s2_title">Übereinstimmende Stationen</string>
+    <string name="new_station_s2_selection_no_station_found_label">Keine Station gefunden. Bitte versuchen Sie es erneut. Ihre Eingabe:</string>
+
+    <!-- Nearest Station GOOGLEMAPS-->
+    <string name="nearest_station_gm_title">Stationen in der Nähe</string>
+    <string name="nearest_station_gm__popup_no_address_found_title">Fehler</string>
+    <string name="nearest_station_gm__popup_no_address_found_label">Für die angegebene Adresse wurden keine Geokoordinaten gefunden</string>
+    <string name="nearest_station_popup_no_address_found_btn">Geben Sie eine neue Adresse ein</string>
+    <string name="nearest_station_info_available_bike_prefix_lbl">Räder:</string>
+    <string name="nearest_station_info_freeslots_prefix_lbl">Stellplätze:</string>
+    <string name="nearest_station_progress_dialog_wait">Bitte warten</string>
+    <string name="nearest_station_filter_info_header">Filter:</string>
+    <string name="nearest_station_filter_info_av_bikes">Räder:</string>
+    <string name="nearest_station_filter_info_free_slots">- Stellplätze:</string>
+    <string name="nearest_station_filter_info_not_filtered">-</string>
+    <string name="nearest_station_location_providers_broken">Lokalisierungsdienste (GPS u.ä.) nicht verfügbar. Bitte prüfen Sie vor einem neuen Versuch den Status der Dienste</string>
+    <string name="nearest_station_warning_dialog_several_addresses">Bitte konkretisieren Sie die Adresse</string>
+
+
+    <!-- Delete station form -->
+    <string name="del_station_title">Station löschen</string>
+    <string name="del_station_warning_message">Möchten Sie die Station wirklich löschen?</string>
+    <string name="del_station_warning_yes_btn">Ja</string>
+    <string name="del_station_warning_no_btn">Nein</string>
+
+    <!-- Timer windows -->
+    <string name="timer_set_title">Timer</string>
+    <string name="timer_set_subtitle">Timer einstellen</string>
+    <string name="timer_set_timer_label">Minuten bis zum Alarm:</string>
+    <string name="timer_set_geolocalize_at_end">Geolokalisierung nach Ablauf</string>
+    <string name="timer_set_activate_filter_cb">Aktive Filter</string>
+    <string name="timer_run_title">Timer</string>
+    <string name="timer_run_subtitle">Timer läuft</string>
+    <string name="timer_run_remaining_lbl">Verbleibende Minuten:</string>
+    <string name="timer_run_filter_free_slot_lbl">Platz-Filter:</string>
+    <string name="timer_run_filter_av_bike_lbl">Rad-Filter:</string>
+    <string name="timer_run_filter_not_filtered">Kein Filter</string>
+    <string name="timer_run_geoloc_lbl">Geolokalisierung:</string>
+    <string name="timer_run_activated">Ja</string>
+    <string name="timer_run_not_activated">Nein</string>
+    <string name="timer_service_started">Veloid Timer gestartet</string>
+    <string name="timer_service_stopped">Veloid Timer gestoppt</string>
+    <string name="timer_service_notification_title">Veloid Timer</string>
+    <string name="timer_service_notification_subtitle_stop">Timer gestoppt.</string>
+    <string name="timer_service_notification_subtitle_running">Der Timer läuft derzeit</string>
+    <string name="timer_run_popup_timer_ends">Timer beendet!</string>
+    <string name="timer_run_popup_geolocate">Timer beendet! Ihre Geoposition wird bestimmt.</string>
+
+    <!-- Dialog -->
+    <string name="error_title">Fehler</string>
+    <string name="error_enter_numerical_value">Geben Sie einen numerischen Wert ein</string>
+    <string name="dialog_value_saved">Der Wert wurde gespeichert</string>
+    <string name="dialog_btn_ok">OK</string>
+    <string name="dialog_btn_cancel">Abbruch</string>
+    <string name="error_no_internet_connection">Keine Internetverbindung! Bitte prüfen Sie das Netzwerk</string>
+
+    <!-- Quick start Dialog -->
+    <string name="quick_start_title">Kurzanleitung</string>
+    <string name="quick_start_message">
+        Möchten Sie die Kurzanleitung lesen, um Veloid optimal nutzen zu können? Dazu wird der Webbrowser geöffnet.
+    </string>
+
+    <!-- specific actions -->
+    <string name="specific_action_nextbike">Ausleihe/Rückgabe eines nextbike Rades (Öffnet den Webbrowser)</string>
+   
+
+    <!-- About dialog -->
+    <string name="about_done_by">Anwendung erstellt von</string>
+    <string name="about_cyril_gervais">Cyril Gervais (contact@veloid.com)</string>
+    <string name="about_version">Veloid</string>
+    <string name="about_info">Bitte besuchen Sie die Webseite http://www.veloid.fr für mehr Informationen, Aktualisierungen, Fehlerberichte, Verbesserungsvorschläge, etc.</string>
+
+    <!-- Notify dialog -->
+    <string name="dialog_notify_set_LED_cb_lbl">LED</string>
+    <string name="dialog_notify_set_vibration_cb_lbl">Vibration</string>
+    <string name="dialog_notify_set_sound_cb_lbl">Sound</string>
+
+ <!-- Search Ringtone dialog -->
+    <string name="dialog_search_ringtone_btn_play_play">Wiedergabe</string>
+    <string name="dialog_search_ringtone_btn_play_stop">Stopp</string>
+
+    <!--  Quick start URL -->
+    <string name="quick_start_url">http://www.veloid.fr/en/quickstart/welcome.htm</string>
+    <!-- Preferences -->
+
+    <!-- scanned stations -->
+    <string name="pref_algo_category_title">Filter-Verfahren</string>
+    <string name="pref_displayed_title">Angezeigte Stationen</string>
+    <string name="pref_displayed_subtitle">Anzahl der Stationen, die auf der Karte angezeigt werden</string>
+    <string name="pref_scanned_title">Gefilterte Stationen</string>
+    <string name="pref_scanned_subtitle">Anzahl der gefilterten Stationen, die auf der Karte angezeigt werden</string>
+    <!-- networks -->
+    <string name="pref_network_category_title">Verleihsystem</string>
+    <string name="pref_network_title">Verleihsystem</string>
+    <string name="pref_network_subtitle">Wählen Sie ein Verleihsystem zur Bearbeitung aus</string>
+    <string name="pref_network_dialog_title">Verleihsystem auswählen</string>
+    <!-- Notification -->
+    <string name="pref_notif_category_title">Timer Hinweise</string>
+    <string name="pref_notif_led_title">LED</string>
+    <string name="pref_notif_led_subtitle"></string>
+    <string name="pref_notif_sound_title">Sound</string>
+    <string name="pref_notif_sound_subtitle_no_ringtone">Lautlos</string>
+    <string name="pref_notif_sound_subtitle_default_ringtone">Standard Klingelton</string>
+    <string name="pref_notif_sound_subtitle_custom_ringtone">Eigener: </string>
+    <string name="up_one_level">..</string> 
+    <string name="current_dir">.</string> 
+    
+    <string name="pref_notif_vibra_title">Vibration</string>
+    <string name="pref_notif_vibra_subtitle"></string>
+    
+    <string name="pref_notif_sound_select_ringtone_custom_title">Eigener:</string>
+    <!-- update stations -->
+    <string name="pref_update_all_station_category_title">Stationsliste</string>
+    <string name="pref_update_all_station_title">Hier klicken</string>
+    <string name="pref_update_all_station_subtitle">um die Stationsliste des gewählten Verleihsystems zu aktualisieren</string>
+    <!-- delete stations -->
+    <string name="pref_delete_all_station_category_title">Stationen bereinigen</string>
+    <string name="pref_delete_all_station_title">Hier klicken</string>
+    <string name="pref_delete_all_station_subtitle">um alle Sationen des gewählten Verleisystems zu löschen</string>
+    <string name="pref_delete_all_station_confirmation">Möchten Sie wirklich alle Stationen des Verleihsystems löschen</string>
+    <string name="pref_delete_all_station_confirmed">Alle Stationen des Verleihsystems wurden gelöscht</string>
+    <!-- About -->
+    <string name="pref_about_category_title">Über</string>
+    <string name="pref_about_title">Informationnen</string>
+    <string name="pref_about_sub_author">Autor: Cyril Gervais</string>
+    <string name="pref_about_sub_version">Version:</string>
+    <string name="pref_about_sub_website">www.veloid.fr</string>
+    <!-- Quick Start -->
+    <string name="pref_quickstart_category_title">Kurzanleitung</string>
+    <string name="pref_quickstart_title">Hier klicken</string>
+    <string name="pref_quickstart_subtitle">um die Kurzanleitung zu lesen (Öffnet den Webbrowser)</string>
+
+
+    <string name="eula_title">Evaluation licence</string>
+    <string name="eula_btn_accept">Annehmen</string>
+    <string name="eula_btn_decline">Ablehnen</string>
+    <string name="eula_content">
+
+        Sehr geehrter Nutzer,
+        Veloid ist derzeit noch eine experimentelle Anwendung. Leider habe ich selbst noch kein echtes Android-Telefon, da diese in Frankreich erst ab April 2009 verfügbar sind. Die Anwendung läuft mit Sicherheit im Android-Emulator. Lob, Anregungen oder Kritik sind deshalb herzlich Willkommen!
+        Veloid unterstützt die Nutzung von Fahrrad-Verleihsystemen, wie smartbikeDC in Washington, Oybike in London sowie viele europäische Verleihsysteme wie Velib in Paris oder nextbike in Deutschland.
+        Die Startseite zeigt bevorzugte Stationen. Der Menü-Button ermöglicht den Zugriff auf erweiterte Optionen. Alles Andere ist über die vier Buttons auf der Startseite verfüghbar:
+        1 - Räder in der Nähe suchen (öffnet eine Karte)
+        2 - Freie Stellplätze in der Nähe suchen (Karte)
+        3 - Liste der favorisierten Stationen aktualisieren
+        4 - Erweitertes Menü (Favoriten hinzufügen, nach Adresse suchen, Favoriten löschen, Geolokalisierung, Timer)
+        Die komplette Anleitung ist auf der Webseite der Anwendung verfügbar: http://www.veloid.fr/
+
+        YOU AKNOWLEDGE THAT THE SOFTWARE IS A PRE-RELEASE VERSION THAT DOES NOT REPRESENT THE FINAL PRODUCT. IT MAY CONTAIN BUGS, ERRORS OR OTHER PROBLEMS.
+
+        End user Licence Agreement (EULA) END-USER LICENSE AGREEMENT FOR Veloid IMPORTANT PLEASE READ THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT
+        CAREFULLY BEFORE CONTINUING WITH THIS PROGRAM INSTALL:Veloid End-User License Agreement ("EULA") is a legal agreement between you (either an individual
+        or a single entity) and Cyril Gervais. for the Cyril Gervais Veloid Software(s) identified above which may include associated software components,
+        media, printed materials, and "online" or electronic documentation ("Veloid Software"). By installing, copying, or otherwise using the Veloid Software,
+        you agree to be bound by the terms of this EULA. This license agreement represents the entire agreement concerning the program between you and Cyril
+        Gervais, (referred to as "licenser"), and it supersedes any prior proposal, representation, or understanding between the parties. If you do not agree to
+        the terms of this EULA, do not install or use the Veloid Software.
+
+        The Veloid Software is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. The
+        Veloid Software is licensed, not sold.
+
+        1. GRANT OF LICENSE. The Veloid Software is licensed as follows:
+
+        (a) Installation and Use. Cyril Gervais grants you the right to install and use copies of the Veloid Software on your phone running under Andoid"!
+
+        (b) Backup Copies. You may also make copies of the Veloid Software as may be necessary for backup and archival purposes.
+
+        2. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS. (a) Maintenance of Copyright Notices. You must not remove or alter any copyright notices on any and all
+        copies of the Veloid Software. (b) Distribution. You may not distribute registered copies of the Veloid Software to third parties. (c) Prohibition on
+        Reverse Engineering, Decompilation, and Disassembly. You may not reverse engineer, decompile, or disassemble the Veloid Software, except and only to the
+        extent that such activity is expressly permitted by applicable law notwithstanding this limitation. (d) Rental. You may not rent, lease, or lend the
+        Veloid Software. (e) Compliance with Applicable Laws. You must comply with all applicable laws regarding use of the Veloid Software.
+
+        3. TERMINATION Without prejudice to any other rights, Cyril Gervais may terminate this EULA if you fail to comply with the terms and conditions of this
+        EULA. In such event, you must destroy all copies of the Veloid Software in your possession.
+
+        4. COPYRIGHT All title, including but not limited to copyrights, in and to the Veloid Software and any copies thereof are owned by Cyril Gervais. All
+        title and intellectual property rights in and to the content which may be accessed through use of the Veloid Software is the property of the respective
+        content owner and may be protected by applicable copyright or other intellectual property laws and treaties. This EULA grants you no rights to use such
+        content. All rights not expressly granted are reserved by Cyril Gervais.
+
+        5. NO WARRANTIES Cyril Gervais expressly disclaims any warranty for the Veloid Software. The Veloid Software is provided "As Is" without any express or
+        implied warranty of any kind, including but not limited to any warranties of merchantability, noninfringement, or fitness of a particular purpose. Cyril
+        Gervais does not warrant or assume responsibility for the accuracy or completeness of any information, text, graphics, links or other items contained
+        within the Veloid Software. Cyril Gervais makes no warranties respecting any harm that may be caused by the transmission of a computer virus, worm, time
+        bomb, logic bomb, or other such computer program. Cyril Gervais further expressly disclaims any warranty or representation to Authorized Users or to any
+        third party.
+
+        6. LIMITATION OF LIABILITY In no event shall Cyril Gervais be liable for any damages (including, without limitation, lost profits, business
+        interruption, or lost information) rising out of Authorized Users' use of or inability to use the Veloid Software, even if Cyril Gervais has been
+        advised of the possibility of such damages. In no event will Cyril Gervais be liable for loss of data or for indirect, special, incidental,
+        consequential (including lost profit), or other damages based in contract, tort or otherwise. Cyril Gervais shall have no liability with respect to the
+        content of the Veloid Software or any part thereof, including but not limited to errors or omissions contained therein, libel, infringements of rights
+        of publicity, privacy, trademark rights, business interruption, personal injury, loss of privacy, moral rights or the disclosure of confidential
+        information.
+    </string>
+
+   
+</resources>

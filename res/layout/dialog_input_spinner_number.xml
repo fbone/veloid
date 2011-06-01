@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/list_top_color"
+    android:id="@+id/new_station_s1_main"
+>
+    <!-- 
+        <TextView
+        android:id="@+id/select_location_provider_lbl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_lp_1"
+        android:padding="2dip" 
+        android:textColor="@color/list_bottom_color"/>	
+    -->
+    <LinearLayout
+        android:id="@+id/input_dialog_container"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+    >
+
+        <Spinner
+            android:id="@+id/select_numerical_value"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawSelectorOnTop="true"
+        />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/list_bottom_color"
+        android:gravity="center_horizontal|center_vertical"
+    >
+
+        <ImageButton
+            android:id="@+id/input_dialog_select_numerical_val_btn_valid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ok"
+        />
+
+        <ImageButton
+            android:id="@+id/input_dialog_select_numerical_val_btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cancel"
+        />
+    </LinearLayout>
+</LinearLayout>

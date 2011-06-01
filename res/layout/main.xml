@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/global_main_container"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/main_container"
+    android:gravity="right"
+    android:background="@color/list_top_color">
+
+    <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/title_replacement_container"
+      android:gravity="left|center_vertical"
+      android:background="@color/list_top_color">
+      <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_small"
+        android:padding="5px"
+        android:scaleType="fitXY" />
+
+      <TextView
+        android:id="@+id/main_veloid_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5px"
+        android:paddingBottom="5px"
+        android:textColor="@color/title_txt_color"
+        android:background="@color/list_top_color"
+        android:text="Veloid"
+        android:textSize="55px" />
+    </LinearLayout>
+    <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/main_network_name_container"
+      android:gravity="right"
+      android:background="@color/list_top_color">
+      <TextView
+        android:id="@+id/main_veloid_current_network"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10px"
+        android:gravity="right"
+        android:textColor="@color/title_txt_color"
+        android:textSize="20px" />
+    </LinearLayout>
+
+
+    <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center_vertical">
+
+      <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:background="@color/list_top_color">
+        <TextView
+          android:id="@+id/last_update_lbl"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="No Update"
+          android:padding="10px"
+          android:textStyle="bold"
+          android:gravity="left"
+          android:textColor="@color/list_bottom_color"
+          android:background="@color/list_top_color" />
+      </LinearLayout>
+      <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:background="@color/list_top_color"
+        android:layout_weight="1">
+        <com.xirgonium.android.view.FavoriteItemView
+          android:id="@+id/main_favorite_header"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:gravity="right">
+
+          <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5px"
+            android:textStyle="bold"
+            android:textColor="@color/filter_info_text"
+            android:text="@string/main_favorite_header_bikes"
+            android:width="57px"
+            android:gravity="center_vertical|center_horizontal" />
+
+          <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/filter_info_text"
+            android:text="|"
+            android:width="5px" />
+
+          <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5px"
+            android:textStyle="bold"
+            android:textColor="@color/filter_info_text"
+            android:text="@string/main_favorite_header_slots"
+            android:width="57px"
+            android:gravity="center_vertical|center_horizontal" />
+        </com.xirgonium.android.view.FavoriteItemView>
+      </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+      android:id="@+id/main_scroll_lst_stations"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:scrollbars="vertical"
+      android:layout_weight="1">
+
+      <TableLayout
+        android:id="@+id/main_table_lst_stations"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="0"
+        android:layout_alignParentBottom="true" />
+
+    </ScrollView>
+    <LinearLayout
+      android:id="@+id/special_action_container"
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/list_bottom_color"
+      android:gravity="center_horizontal|center_vertical"
+      android:paddingBottom="15px">
+
+      <com.xirgonium.android.view.FavoriteItemView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+        <TextView
+          android:id="@+id/special_action_text"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:padding="5px"
+
+          android:textStyle="bold"
+          android:textColor="@color/filter_info_text"
+          android:text=""
+          android:gravity="center_vertical|center_horizontal" />
+      </com.xirgonium.android.view.FavoriteItemView>
+    </LinearLayout>
+
+    <TableLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/list_bottom_color"
+      android:stretchColumns="0, 1, 2, 3">
+      <TableRow>
+        <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal|center_vertical">
+          <ImageButton
+            android:id="@+id/main_express_geoloc_bike_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/express_search_bike"
+            android:background="@color/map_station_item_transparent" />
+        </LinearLayout>
+        <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal|center_vertical">
+          <ImageButton
+            android:id="@+id/main_express_geoloc_slot_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/express_search_slots"
+            android:background="@color/map_station_item_transparent" />
+        </LinearLayout>
+        <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal|center_vertical">
+          <ImageButton
+            android:id="@+id/main_refresh_favorite_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/reload"
+            android:background="@color/map_station_item_transparent" />
+        </LinearLayout>
+        <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal|center_vertical">
+          <ImageButton
+            android:id="@+id/main_show_advanced_menu_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/double_up_arrow"
+            android:text="@string/main_bar_btn_advanced_title"
+            android:background="@color/map_station_item_transparent" />
+        </LinearLayout>
+      </TableRow>
+      <TableRow>
+        <LinearLayout
+          android:id="@+id/main_express_geoloc_bike_label"
+          android:orientation="vertical"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal|center_vertical">
+          <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_bar_btn_esbikes_title"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/main_toolbar_text_color"
+            android:textSize="16px"
+            android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+          android:id="@+id/main_express_geoloc_slot_label"
+          android:orientation="vertical"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal|center_vertical">
+          <TextView
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_bar_btn_esslots_title"
+            android:textSize="16px"
+            android:textStyle="bold"
+            android:textColor="@color/main_toolbar_text_color" />
+        </LinearLayout>
+        <LinearLayout
+          android:id="@+id/main_refresh_label"
+          android:orientation="vertical"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal|center_vertical">
+          <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_bar_btn_refresh_title"
+            android:textSize="16px"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/main_toolbar_text_color" />
+        </LinearLayout>
+        <LinearLayout
+          android:id="@+id/main_advanced_label"
+          android:orientation="vertical"
+          android:clickable="true"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal|center_vertical">
+          <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_bar_btn_advanced_title"
+            android:textSize="16px"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/main_toolbar_text_color" />
+        </LinearLayout>
+      </TableRow>
+    </TableLayout>
+
+    <!--
+      <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@color/list_bottom_color" android:gravity="center_horizontal|center_vertical"> <LinearLayout android:orientation="vertical"
+      android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal"> <ImageButton android:id="@+id/main_express_geoloc_bike_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/express_search_bike" />
+      <TextView android:id="@+id/main_veloid_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingTop="2px" android:paddingBottom="2px" android:text="@string/main_bar_btn_esbikes_title" android:textSize="12px"
+      android:textColor="@color/main_toolbar_text_color"/> </LinearLayout> <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal|center_vertical"> <ImageButton
+      android:id="@+id/main_express_geoloc_slot_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/express_search_slots" /> <TextView android:id="@+id/main_veloid_title" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:paddingTop="2px" android:paddingBottom="2px" android:text="@string/main_bar_btn_esslots_title" android:textSize="12px" /> </LinearLayout> <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      android:gravity="center_horizontal|center_vertical"> <ImageButton android:id="@+id/main_refresh_favorite_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/reload"/> <TextView android:id="@+id/main_veloid_title"
+      android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingTop="2px" android:paddingBottom="2px" android:text="@string/main_bar_btn_refresh_title" android:textSize="12px" /> </LinearLayout> <LinearLayout android:orientation="vertical"
+      android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal|center_vertical"> <ImageButton android:id="@+id/main_show_advanced_menu_btn" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      android:src="@drawable/double_up_arrow" android:text="@string/main_bar_btn_advanced_title" /> <TextView android:id="@+id/main_veloid_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingTop="2px" android:paddingBottom="2px"
+      android:text="@string/main_bar_btn_advanced_title" android:textSize="12px" /> </LinearLayout> </LinearLayout>
+    -->
+
+  </LinearLayout>
+</AbsoluteLayout>
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+<string-array name="tabList_lbl">
+  <item>Favorite</item>
+  <item>Search</item>
+  <item>Map</item>
+  <item>Timer</item>
+ </string-array>
+
+
+    <string-array name="filter_free_slots_values">
+        <item>Ne pas filtrer sur les places</item>
+        <item>1 place</item>
+        <item>2 places</item>
+        <item>3 places</item>
+        <item>4 places</item>
+        <item>5 places</item>
+        <item>6 places</item>
+    </string-array>
+    
+    <string-array name="filter_available_bikes_values">
+        <item>Ne pas filtrer sur les vélos</item>
+        <item>1 vélo</item>
+        <item>2 vélos</item>
+        <item>3 vélos</item>
+        <item>4 vélos</item>
+        <item>5 vélos</item>
+        <item>6 vélos</item>
+    </string-array>
+
+    <string-array name="displayed_station">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="scanned_station">
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+
+</resources>

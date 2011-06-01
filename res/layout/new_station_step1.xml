@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/list_top_color"
+  android:id="@+id/new_station_s1_main">
+  <ScrollView
+    android:id="@+id/main_scroll_lst_stations"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:background="@color/list_bottom_color"
+    android:layout_weight="1">
+
+
+
+    <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:background="@color/list_top_color">
+
+      <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_replacement_container"
+        android:gravity="left|center_vertical"
+        android:background="@color/list_top_color">
+        <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/bookmark_add_big"
+          android:padding="5px"
+          android:scaleType="fitXY" />
+
+        <TextView
+        android:id="@+id/add_fav_title"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:paddingTop="5px"
+          android:paddingBottom="5px"
+          android:textColor="@color/title_txt_color"
+          android:background="@color/list_top_color"
+          android:text="@string/new_station_s1_title"
+          android:textSize="40px" />
+      </LinearLayout>
+      <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:background="@color/list_top_color">
+        <TextView
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:paddingBottom="10px"
+          android:gravity="right"
+          android:textColor="@color/title_txt_color"
+          android:textSize="20px"
+          android:paddingRight="5px"
+          android:text="@string/new_station_s1_sub_title" />
+      </LinearLayout>
+
+      <TextView
+        android:id="@+id/new_station_s1_part_info_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_station_s1_part_info_label"
+        android:padding="5dip"
+        android:textColor="@color/list_bottom_color" />
+
+      <EditText
+        android:id="@+id/new_station_s1_part_info_input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:singleLine="true" />
+
+      <TextView
+        android:id="@+id/new_station_s1_part_address_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_station_s1_part_address_label"
+        android:padding="5dip"
+        android:textColor="@color/list_bottom_color" />
+
+      <EditText
+        android:id="@+id/new_station_s1_part_address_input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:singleLine="true" />
+
+      <Spinner
+        android:id="@+id/new_station_s1_part_address_city"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:textColor="@color/disabled" />
+
+
+
+      <LinearLayout
+        android:id="@+id/new_station_s1_filter_container"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <CheckBox
+          android:id="@+id/new_station_s1_activate_filter_cb"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/new_station_s1_activate_filter_cb" />
+
+        <Spinner
+          android:id="@+id/new_station_s1_filter_min_avb_val"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:drawSelectorOnTop="true"
+          android:clickable="false"
+          android:textColor="@color/disabled" />
+
+        <Spinner
+          android:id="@+id/new_station_s1_filter_min_slot_val"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:drawSelectorOnTop="true"
+          android:clickable="false"
+          android:textColor="@color/disabled" />
+      </LinearLayout>
+    </LinearLayout>
+  </ScrollView>
+  <!--
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@color/list_bottom_color" android:layout_weight="2" />
+  -->
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/list_bottom_color"
+    android:gravity="center_horizontal|center_vertical">
+
+    <ImageButton
+      android:id="@+id/new_station_s1_btn_valid"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/ok" />
+
+    <ImageButton
+      android:id="@+id/new_station_s1_btn_cancel"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/cancel" />
+  </LinearLayout>
+</LinearLayout>

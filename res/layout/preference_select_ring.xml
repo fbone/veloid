@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:id="@+id/select_ring"
+  android:gravity="left">
+      <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:checkedButton="@+id/select_ringtone_select"
+        android:id="@+id/menu">
+        <RadioButton
+            android:text="@string/pref_notif_sound_subtitle_no_ringtone"
+            android:id="@+id/select_ringtone_no_ringtone"
+            />
+        <RadioButton
+            android:text="@string/pref_notif_sound_subtitle_default_ringtone"
+            android:id="@+id/select_ringtone_default" />
+        <RadioButton
+            android:text="@string/pref_notif_sound_subtitle_custom_ringtone"
+            android:id="@+id/select_ringtone_custom" />
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right">
+    <Button
+      android:id="@+id/select_ringtone_browse"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/pref_notif_sound_select_ringtone_browse"/>
+  </LinearLayout>          
+    </RadioGroup>
+</LinearLayout>

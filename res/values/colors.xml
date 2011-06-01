@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- Title on main page -->
+
+    <!-- Item on main page -->
+    <color name="item_odd_background">#cd436eee</color>
+    <color name="item_even_background">#1e90ff</color>
+    <color name="item_odd_text_color">#ebebeb</color>
+    <color name="item_even_text_color">#ebebeb</color>
+    <color name="item_border">#ebebeb</color>
+    <color name="header_favorite">#ec6604</color>
+    <color name="item_info_alpha">#45FFFFFF</color>
+
+    <!-- last update on main page -->
+    <color name="last_update_background">#cd436eee</color>
+    <color name="last_update_text_color">#ebebeb</color>
+    <color name="last_update_border">#ebebeb</color>
+
+    <!-- disabled  -->
+    <color name="disabled">#ebebeb</color>
+    <color name="enabled">#000000</color>
+
+    <!-- list gradient colors -->
+    <color name="list_top_color">#FF000000</color>
+    <color name="list_bottom_color">#ffffffFF</color>
+
+    <!-- Station info on map -->
+    <color name="map_station_item_background">#DD436eee</color>
+    <color name="map_station_item_border">#ebebeb</color>
+    <color name="map_station_item_text">#FFFFFF</color>
+    <color name="map_station_item_transparent">#00000000</color>
+
+    <!-- Toolbar on map -->
+    <color name="map_toolbar_background">#CCFFFFFF</color>
+    <color name="map_toolbar_border">#DD436eee</color>
+
+    <!-- Filter info on map -->
+    <color name="filter_info_background">#DDff8c00</color>
+    <color name="filter_info_border">#FFFFFF</color>
+    <color name="filter_info_text">#FFFFFFFF</color>
+
+    <!-- Advanced menu last button background -->
+    <color name="adv_top_gradient">#EE000000</color>
+    <color name="adv_bottom_gradient">#FFffffFF</color>
+    <color name="main_toolbar_text_color">#FF120D16</color>
+    <color name="adv_button_background">#EE000000</color>
+    <color name="adv_button_border">#9bd729</color>
+    <color name="adv_button_text_color">#FFFFFF</color>
+    <color name="adv_button2_background">#ec6604</color>
+    <color name="adv_button2_border">#000000</color>
+    <color name="adv_button2_text_color">#DDDDDD</color>
+
+    <color name="title_txt_color">#9bd729</color>
+
+    <color name="favorite_text_color">#505050</color>
+    <color name="green_one">#9bd729</color>
+    <color name="green_two">#608C0D</color>
+    
+    <color name="favorite_alternative_one">#1e90ff</color>
+    <color name="favorite_alternative_two">#E55A89</color>
+    <color name="favorite_alternative_three">#FF5C00</color>
+    
+    <color name="favorite_text_color_alternative1">#FFFFFF</color>
+    <color name="favorite_text_color_alternative2">#FFFFFF</color>
+    <color name="favorite_text_color_alternative3">#FFFFFF</color>
+<!--    <color name="favorite_alternative_two">#B5D5FF</color> E75C2C-->
+
+</resources>

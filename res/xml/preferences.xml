@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_startup_category_title">
+        <ListPreference
+            android:key="startup.tab"
+            android:title="@string/pref_startup_starttab_title"
+            android:summary="@string/pref_startup_starttab_subtitle"
+            android:entries="@array/tabList_lbl"
+            android:entryValues="@array/tabList_value"
+            android:persistent="true"
+            android:dialogTitle="@string/pref_startup_starttab_title" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="@string/pref_favorites_category_title">
+       <CheckBoxPreference
+            android:key="favorite.sorted.by.colors"
+            android:title="@string/pref_favorites_sortbycolor_title"
+            android:summary="@string/pref_favorites_sortbycolor_subitle" 
+            android:persistent="true"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="@string/pref_network_category_title">
+        <com.xirgonium.android.config.NetworkPreference
+            android:key="biking.network"
+            android:title="@string/pref_network_title"
+            android:summary="@string/pref_network_subtitle"
+            android:persistent="true"
+            android:dialogTitle="@string/pref_network_dialog_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_notif_category_title">
+        <CheckBoxPreference
+            android:key="notif.led"
+            android:title="@string/pref_notif_led_title"
+            android:summary="@string/pref_notif_led_subtitle" />
+
+        <CheckBoxPreference
+            android:key="notif.vibra"
+            android:title="@string/pref_notif_vibra_title"
+            android:summary="@string/pref_notif_vibra_subtitle" />
+
+        <com.xirgonium.android.config.SelectRingPreference
+            android:title="@string/pref_notif_sound_title"
+            android:summary="@string/pref_notif_sound_subtitle"
+            android:dialogLayout="@layout/preference_select_ring"
+            android:positiveButtonText="@string/dialog_btn_ok"
+            android:negativeButtonText="@string/dialog_btn_cancel" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_update_all_station_category_title">
+        <com.xirgonium.android.config.UpdateStationListPreference
+            android:key="none"
+            android:title="@string/pref_update_all_station_title"
+            android:summary="@string/pref_update_all_station_subtitle" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_algo_category_title">
+        <ListPreference
+            android:key="station.returned"
+            android:title="@string/pref_displayed_title"
+            android:summary="@string/pref_displayed_subtitle"
+            android:entries="@array/displayed_station"
+            android:entryValues="@array/displayed_station"
+            android:persistent="true"
+            android:dialogTitle="@string/pref_displayed_title" />
+        <ListPreference
+            android:key="station.filtered"
+            android:title="@string/pref_scanned_title"
+            android:summary="@string/pref_scanned_subtitle"
+            android:entries="@array/scanned_station"
+            android:entryValues="@array/scanned_station"
+            android:persistent="true"
+            android:dialogTitle="@string/pref_scanned_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_delete_all_station_category_title">
+        <com.xirgonium.android.config.DeleteAllStationsPreference
+            android:key="none"
+            android:title="@string/pref_delete_all_station_title"
+            android:summary="@string/pref_delete_all_station_subtitle" />
+    </PreferenceCategory>
+    <!-- PreferenceCategory
+        android:title="@string/pref_quickstart_category_title">
+        <com.xirgonium.android.config.QuickStartPreference
+            android:key="none"
+            android:title="@string/pref_quickstart_title"
+            android:summary="@string/pref_quickstart_subtitle" />
+    </PreferenceCategory-->
+    
+    <PreferenceCategory
+        android:title="@string/pref_about_category_title">
+        <com.xirgonium.android.config.AboutPreference
+            android:key="none"
+            android:title="@string/pref_about_title"
+            android:summary="" />
+    </PreferenceCategory>
+</PreferenceScreen>

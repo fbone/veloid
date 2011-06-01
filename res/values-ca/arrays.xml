@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources> 
+    
+<string-array name="tabList_lbl">
+   <item> Favorits </item>
+   <item> Recerca </item>
+   <item> Mapa </item>
+   <item> Temporitzador </item>
+  </string-array>
+
+    <array name="filter_free_slots_values">
+        <item>No filtrar el numero de slots libres</item>
+        <item>1 slot libre</item>
+        <item>2 slots libres</item>
+        <item>3 slots libres</item>
+        <item>4 slots libres</item>
+        <item>5 slots libres</item>
+        <item>6 slots libres</item>
+    </array>
+    <array name="filter_available_bikes_values">
+        <item>No filtrar el numero de bicicletas disponibles</item>
+        <item>1 bicicleta</item>
+        <item>2 bicicletas</item>
+        <item>3 bicicletas</item>
+        <item>4 bicicletas</item>
+        <item>5 bicicletas</item>
+        <item>6 bicicletas</item>
+    </array>
+
+
+    <string-array name="displayed_station">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="scanned_station">
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    
+    
+</resources>

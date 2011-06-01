@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xirgonium.android.map.ToolbarActionView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="fill_parent"
+  android:layout_width="fill_parent"
+  android:orientation="horizontal"
+  android:gravity="center_horizontal|center_vertical">
+  <TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/list_bottom_color"
+    android:stretchColumns="0, 1, 2">
+    <TableRow>
+      <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical">
+
+        <ImageButton
+          android:id="@+id/toolbar_btn_refresh_current"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/reload"
+          android:background="@color/map_station_item_transparent" />
+      </LinearLayout>
+      <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical">
+
+        <ImageButton
+          android:id="@+id/toolbar_btn_center_of_map"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/recenter_here"
+          android:background="@color/map_station_item_transparent" />
+      </LinearLayout>
+      <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical">
+
+        <ImageButton
+          android:id="@+id/toolbar_btn_geolocalization"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/world"
+          android:background="@color/map_station_item_transparent" />
+      </LinearLayout>
+    </TableRow>
+    <TableRow>
+      <LinearLayout
+        android:id="@+id/map_toolbar_refresh_label"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical">
+        <TextView
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/nearest_station_button_refresh"
+          android:gravity="center_vertical|center_horizontal"
+          android:textColor="@color/main_toolbar_text_color"
+          android:textSize="16px"
+          android:textStyle="bold" />
+      </LinearLayout>
+      <LinearLayout
+        android:id="@+id/map_toolbar_recenter_label"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical">
+        <TextView
+          android:gravity="center_vertical|center_horizontal"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/nearest_station_button_recenter_from_map"
+          android:textSize="16px"
+          android:textStyle="bold"
+          android:textColor="@color/main_toolbar_text_color" />
+      </LinearLayout>
+      <LinearLayout
+        android:id="@+id/map_toolbar_btn_geoloc_label"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical">
+        <TextView
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/nearest_station_button_geoloc"
+          android:textSize="16px"
+          android:textStyle="bold"
+          android:gravity="center_vertical|center_horizontal"
+          android:textColor="@color/main_toolbar_text_color" />
+      </LinearLayout>
+
+    </TableRow>
+  </TableLayout>
+</com.xirgonium.android.map.ToolbarActionView>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<string-array name="tabList_lbl">
+  <item>Favorites</item>
+  <item>Search</item>
+  <item>Map</item>
+  <item>Timer</item>
+ </string-array>
+
+
+<string-array name="tabList_value">
+  <item>signets</item>
+  <item>search</item>
+  <item>map</item>
+  <item>timer</item>
+ </string-array>
+
+ <string-array name="filter_free_slots_values">
+  <item>Don't filter the number of free slots</item>
+  <item>1 free slot</item>
+  <item>2 free slots</item>
+  <item>3 free slots</item>
+  <item>4 free slots</item>
+  <item>5 free slots</item>
+  <item>6 free slots</item>
+ </string-array>
+
+ <string-array name="filter_available_bikes_values">
+  <item>Don't filter the number of av. bikes</item>
+  <item>1 bike</item>
+  <item>2 bikes</item>
+  <item>3 bikes</item>
+  <item>4 bikes</item>
+  <item>5 bikes</item>
+  <item>6 bikes</item>
+ </string-array>
+
+ <string-array name="displayed_station">
+  <item>1</item>
+  <item>2</item>
+  <item>3</item>
+  <item>4</item>
+  <item>5</item>
+ </string-array>
+
+ <string-array name="scanned_station">
+  <item>10</item>
+  <item>11</item>
+  <item>12</item>
+  <item>13</item>
+  <item>14</item>
+  <item>15</item>
+  <item>16</item>
+  <item>17</item>
+  <item>18</item>
+  <item>19</item>
+  <item>20</item>
+ </string-array>
+
+</resources>

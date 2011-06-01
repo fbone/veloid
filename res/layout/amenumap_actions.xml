@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuMapEnterAddress"
+        android:title="@string/map_ctx_menu_enter_address"
+        android:icon="@drawable/img_map" />
+
+    <item
+        android:id="@+id/menuMapCurrentMapCenter"
+        android:title="@string/map_ctx_menu_current_map_center" 
+        android:icon="@drawable/pin"/>
+
+    <item
+        android:id="@+id/menuMapRefresh"
+        android:title="@string/map_ctx_menu_current_location" 
+        android:icon="@drawable/refresh"/>
+        
+    <item
+        android:id="@+id/menuMolib"
+        android:title="@string/map_ctx_menu_molib" 
+        android:icon="@drawable/molib_icon"/>
+
+</menu>

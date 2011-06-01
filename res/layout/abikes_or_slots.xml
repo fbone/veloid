@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_weight="1">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_explanation"
+        android:textSize="20px"
+        android:textStyle="bold"
+        android:paddingBottom="10px"
+        android:paddingTop="10px"
+        android:paddingLeft="5px" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_marginBottom="20px">
+
+        <ImageButton
+            android:id="@+id/searchLessUnits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_minus"
+            android:layout_marginRight="10dip"
+            android:background="@color/map_station_item_transparent" />
+
+        <TextView
+            android:id="@+id/searchUnits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dip"
+
+            android:editable="false"
+            android:textSize="60px"
+            android:textStyle="bold"
+            android:textColor="@color/green_one"
+            android:gravity="center_horizontal" />
+
+        <ImageButton
+            android:id="@+id/searchMoreUnits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_plus"
+            android:background="@color/map_station_item_transparent"
+            android:layout_marginLeft="10dip" />
+
+    </LinearLayout>
+
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="fill_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_weight="2" >-->
+    <!--        -->
+    <!--        <TextView-->
+    <!--        android:layout_width="fill_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="REMPLI"-->
+    <!--        />-->
+    <!--        -->
+    <!--        </LinearLayout>-->
+
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1"
+        android:gravity="bottom"
+        android:layout_weight="2">
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnSearchBikes"
+                android:text="@string/bikes"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20px"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/btnSearchSlots"
+                android:text="@string/slots"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20px"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
+
+
+
+
+

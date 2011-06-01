@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- Main window -->
+    <string name="main_app_name">Veloid</string>
+    <string name="main_hour_date_format_prefix">A las</string>
+    <string name="main_hour_date_format">HH:mm:ss</string>
+    <string name="main_last_update_not_done">Nunca actualizado</string>
+    <string name="main_update_progress_dialog_title">Procesando</string>
+    <string name="main_update_progress_dialog_station_updating">Actualizando estaciones.</string>
+    <string name="main_update_station_list">Esta seguro de que quiere actualizar la lista de estaciones (esta accion puede durar unos minutos)?</string>
+    <string name="main_nb_stations_grabbed_for_network">stations para el red</string>
+    <string name="main_update_station_list_after_chage">Parece que es la primera vez que utilice esta red. ¿Quiere actualizar la lista de estaciones (esta acción puede tomar tiempo)?</string>
+    <string name="main_favorite_header_bikes">Bici.</string>
+    <string name="main_favorite_header_slots">Slots</string>
+
+    <!-- Menu on main -->
+    <string name="menu_station_returned">Estaciones disponibles:</string>
+    <string name="menu_max_station_scanned">Numero maximo de estaciones buscadas:</string>
+    <string name="menu_update_station_list">Lista de estaciones actualizada</string>
+    <string name="menu_notification">Notificaciones</string>
+    <string name="menu_network">Red de bicis:</string>
+    <string name="menu_about">A cerca de...</string>
+
+    <!-- List of station -->
+    <string name="si_free_slots">Slots</string>
+    <string name="si_available_bikes">Bici</string>
+
+    <!-- New station form STEP 1-->
+    <string name="new_station_s1_title">Nuevo favorito</string>
+    <string name="new_station_s1_part_info_label">Informacion a cerca de la estacion buscada (calle, numero,...)</string>
+    <string name="new_station_s1_part_address_label">O cerca de la direccion</string>
+    <string name="new_station_s1_activate_filter_cb">Filtro activado (valido solo para direcciones)</string>
+    <string name="new_station_s1_filter_min_slot_lbl">Minimo numero de slots libres</string>
+    <string name="new_station_s1_filter_min_avb_lbl">Minimo numero de bicis disponibles</string>
+
+    <!-- New station form STEP 2 DATABASE-->
+    <string name="new_station_s2_title">Buscando estaciones</string>
+    <string name="new_station_s2_selection_no_station_found_label">No se encontraron estaciones, por favor intentelo de nuevo. Usted introdujo:</string>
+
+    <!-- Nearest Station GOOGLEMAPS-->
+    <string name="nearest_station_gm_title">Estaciones mas cercanas</string>
+    <string name="nearest_station_gm__popup_no_address_found_title">Error</string>
+    <string name="nearest_station_gm__popup_no_address_found_label">La direccion introducida no coincide con ningunas coordinadas</string>
+    <string name="nearest_station_popup_no_address_found_btn">Introduzca una nueva direccion</string>
+    <string name="nearest_station_info_available_bike_prefix_lbl">Bicis :</string>
+    <string name="nearest_station_info_freeslots_prefix_lbl">Slots :</string>
+    <string name="nearest_station_progress_dialog_wait">Espere por favor</string>
+
+    <string name="nearest_station_filter_info_header">Filtro:</string>
+    <string name="nearest_station_filter_info_av_bikes">Bicis :</string>
+    <string name="nearest_station_filter_info_free_slots">- Slots :</string>
+    <string name="nearest_station_filter_info_not_filtered">No aplicable</string>
+    <string name="nearest_station_location_providers_broken">Imposible usar sus posiciones proporcionadas. Por favor revise su estado</string>
+    <string name="nearest_station_warning_dialog_several_addresses">Sírvanse aclarar la dirección</string>
+
+    <!-- Delete station form -->
+    <string name="del_station_title">Borrar una estacion</string>
+    <string name="del_station_warning_message">Esta seguro de que desea borrar esta estacion?</string>
+    <string name="del_station_warning_yes_btn">Si</string>
+    <string name="del_station_warning_no_btn">No</string>
+
+    <!-- Quick start Dialog -->
+    <string name="quick_start_title">Guía de Inicio Rápido</string>
+    <string name="quick_start_message">¿Quieres leer una guía de inicio rápido? Le puede ayudar en la utilización de Veloid en relación con el tipo de usuario es usted. Esta acción abre una web Brower.
+    </string>
+    <string name="quick_start_url">http://www.veloid.fr/en/quickstart/welcome.htm</string>
+
+    <!-- Timer windows -->
+    <string name="timer_set_title">Temporizador</string>
+    <string name="timer_set_subtitle">Ajuste el temporizador</string>
+    <string name="timer_set_timer_label">Minutos antes de la alarma:</string>
+    <string name="timer_set_geolocalize_at_end">Posicion GPS al finalizar el contador</string>
+    <string name="timer_set_activate_filter_cb">Activar filtro</string>
+    <string name="timer_run_title">Temporizador</string>
+    <string name="timer_run_subtitle">Temporizador está en funcionamiento</string>
+    <string name="timer_run_remaining_lbl">Minutos restantes:</string>
+    <string name="timer_run_filter_free_slot_lbl">Filtro de slots:</string>
+    <string name="timer_run_filter_av_bike_lbl">Filtro de bicis:</string>
+    <string name="timer_run_filter_not_filtered">Sin filtrar</string>
+    <string name="timer_run_geoloc_lbl">Posicion GPS:</string>
+    <string name="timer_run_activated">Si</string>
+    <string name="timer_run_not_activated">No</string>
+    <string name="timer_service_started">Temporizador iniciado</string>
+    <string name="timer_service_stopped">Temporizador parado</string>
+    <string name="timer_run_popup_timer_ends">Temporizador detenido!</string>
+    <string name="timer_run_popup_geolocate">Temporizador termina! Estás a punto de ser geolocated.</string>
+    <string name="timer_service_notification_title">Veloid temporizador</string>
+    <string name="timer_service_notification_subtitle_stop">Temporizador detenido.</string>
+    <string name="timer_service_notification_subtitle_running">Temporizador se está ejecutando.</string>
+
+
+
+    <!-- Dialog -->
+    <string name="error_title">Error</string>
+    <string name="error_enter_numerical_value">Introduzca un valor numerico</string>
+    <string name="dialog_value_saved">El valor ha sido salvado</string>
+    <string name="error_no_internet_connection">No internet connexion !</string>
+    <string name="dialog_btn_ok">OK</string>
+    <string name="dialog_btn_cancel">Cancelar</string>
+
+    <!-- About dialog -->
+    <string name="about_done_by">Aplicacion hecha por</string>
+    <string name="about_cyril_gervais">Cyril Gervais (contact@veloid.com)</string>
+    <string name="about_version">Veloid v0.9beta</string>
+    <string name="about_info">Por favor consulte el url http://www.veloid.com para mas informacion, actualizacion, mejoras, sugerencias ...etc</string>
+
+    <!-- Notify dialog -->
+    <string name="dialog_notify_set_LED_cb_lbl">LED</string>
+    <string name="dialog_notify_set_vibration_cb_lbl">Vibracion</string>
+    <string name="dialog_notify_set_sound_cb_lbl">Sonido</string>
+
+    <!-- Preference -->
+    <string name="pref_algo_category_title">Filtro algoritmo</string>
+    <string name="pref_displayed_title">Muestra las estaciones</string>
+    <string name="pref_displayed_subtitle">Número de estaciones que se visualiza en la pantalla del mapa</string>
+    <string name="pref_scanned_title">Estaciones de escaneado</string>
+    <string name="pref_scanned_subtitle">Número de estaciones de escaneado para encajar el filtro, en la pantalla del mapa</string>
+    <!-- networks -->
+    <string name="pref_network_category_title">Bicicleta red de intercambio de</string>
+    <string name="pref_network_title">Bicicleta red de intercambio de</string>
+    <string name="pref_network_subtitle">Seleccione una red para trabajar en</string>
+    <string name="pref_network_dialog_title">Seleccione una red</string>
+    <!-- Notification -->
+    <string name="pref_notif_category_title">Temporizador notificaciones</string>
+    <string name="pref_notif_led_title">LED</string>
+    <string name="pref_notif_led_subtitle"></string>
+    <string name="pref_notif_sound_title">Sonido</string>
+    <string name="pref_notif_sound_subtitle">No se puede cambiar el sonido por ahora</string>
+    <string name="pref_notif_vibra_title">Vibracion</string>
+    <string name="pref_notif_vibra_subtitle"></string>
+    <!-- update stations -->
+    <string name="pref_update_all_station_category_title">Lista de las estaciones</string>
+    <string name="pref_update_all_station_title">Haga clic aquí</string>
+    <string name="pref_update_all_station_subtitle">para actualizar la lista de seleccionados para la red</string>
+    <!-- delete stations -->
+    <string name="pref_delete_all_station_category_title">Delete Station</string>
+    <string name="pref_delete_all_station_title">Haga clic aquí</string>
+    <string name="pref_delete_all_station_subtitle">Para eliminar todos los de la estación de la red actual</string>
+    <string name="pref_delete_all_station_confirmation">¿Realmente desea eliminar todas las estaciones de la red</string>
+    <string name="pref_delete_all_station_confirmed">Todas las estaciones se ha suprimido de la red</string>
+    <!-- About -->
+    <string name="pref_about_category_title">Sobre</string>
+    <string name="pref_about_title">Information</string>
+    <string name="pref_about_sub_author">Autor: Cyril Gervais</string>
+    <string name="pref_about_sub_version">Version:</string>
+    <string name="pref_about_sub_website">www.veloid.fr</string>
+    <!-- Quick Start -->
+    <string name="pref_quickstart_category_title">Guía de Inicio Rápido</string>
+    <string name="pref_quickstart_title">Haga clic aquí</string>
+    <string name="pref_quickstart_subtitle">para abrir el Veloid guía de inicio rápido (de abrir un navegador web)</string>
+
+    <string name="eula_title">Licencia de Evaluación</string>
+    <string name="eula_btn_accept">Aceptar</string>
+    <string name="eula_btn_decline">Negar</string>
+
+    <!-- VERSION 0.9.10 -->
+    <string name="del_station_sub_title">Quite a un favorito</string>
+    <string name="nearest_station_button_recenter_from_map">Centro de la\nmapa</string>
+    <string name="new_station_s1_sub_title">Nuevo favorito</string>
+    <string name="main_bar_slots_5">5 slots</string>
+    <string name="main_bar_slots_4">4 slots</string>
+    <string name="main_bar_slots_3">3 slots</string>
+    <string name="main_bar_slots_2">2 slots</string>
+    <string name="main_bar_slots_1">1 slot</string>
+    <string name="main_bar_btn_esbikes_title">Bici\ncerca?</string>
+    <string name="main_bar_i_want">Estoy buscando</string>
+    <string name="main_bar_btn_refresh_title">Actualizar</string>
+    <string name="main_bar_btn_advanced_title">Favoritos\n/Temporizador</string>
+    <string name="nearest_station_button_refresh">Actualizar</string>
+    <string name="main_bar_advanced_del_fav">Quite a un favorito</string>
+    <string name="main_bar_advanced_add_fav">Nuevo favorito</string>
+    <string name="main_bar_advanced_filtered_geolocation">Bici Y slots</string>
+    <string name="main_bar_advanced_title">Otras acciones</string>
+    <string name="main_bar_btn_esslots_title">Slots\ncerca?</string>
+    <string name="main_bar_bikes_5">5 bicis</string>
+    <string name="main_bar_bikes_4">4 bicis</string>
+    <string name="main_bar_bikes_3">3 bicis</string>
+    <string name="main_bar_bikes_2">2 bicis</string>
+    <string name="main_bar_bikes_1">1 bici</string>
+    <string name="nearest_station_button_geoloc">Geolocalización</string>
+    <string name="main_bar_advanced_timer">Temporizador</string>
+    <string name="main_updating_favorite">Por favor, espere mientras que las disponibilidades para obtener sus favoritos</string>
+
+  <!-- TAB -->
+   <string name="tab_title_fav">Favorits</string>
+       <string name="tab_title_search">Recerca</string>
+       <string name="tab_title_timer">Temporitzador</string>
+       <string name="tab_title_map">Mapa</string>
+
+       <string name="add">Afegir</string>
+       <string name="remove">Suprimir</string>
+       <string name="bikes">Bici(s)</string>
+       <string name="slots">Lloc(s)</string>
+
+       <string name="bikes_label">Bicis : </string>
+       <string name="slots_label">Llocs : </string>
+
+       <string name="new_favorite_title">Nou Favorit</string>
+       <string name="new_favorite_explanation">Introduir cualsevol tipus d\'informació relacionada amb el favorit recercat:</string>
+       <string name="new_favorite_explanation_footer">Nota : Vostè pot afagir igualment un favorit desde el mapa.
+       </string>
+
+       <string name="new_favorite_valid_search">Recercar</string>
+       <string name="new_favorite_select_in_list">Estacions corresponents: </string>
+       <string name="new_favorite_error_no_selection">No hi ha res seleccionat!</string>
+
+       <string name="remove_favorite_title">Suprimir un favorit</string>
+
+       <string name="remove_favorite_select_in_list">Seleccionar el favorit que es desitgi esborrar y després fer click en el botó \"Suprimir\": </string>
+
+       <string name="search_explanation">Recerco </string>           
+
+       <string name="map_continue_without_location">Continuar sense geolocalizació</string>
+
+       <string name="map_ctx_menu_enter_address">Centrar en una direcció</string>
+
+       <string name="map_ctx_menu_current_location">Centrar en la meva posició</string>
+
+       <string name="map_ctx_menu_current_map_center">Utilitzar el centre del mapa mostrat</string>
+
+       <string name="map_ctx_menu_refresh">Actualitzar la informació</string>
+
+       <string name="timer_set_start_timer">Inici</string>
+
+       <string name="timer_set_filter_slots">Lloc(s)</string>
+       <string name="timer_set_filter_slots_and_bikes">Lloc(s) y Bici(s)</string>
+
+       <string name="timer_run_filter_on_slots">Filtrar els llocs</string>
+
+       <string name="timer_run_filter_on_bikes_and_slots">Filtrar els llocs y les bicis</string>
+
+       <string name="stop_timer">Parar el temporitzador</string>
+
+       <string name="address_i_go">Vaig </string>
+
+       <string name="yes">Si</string>
+       <string name="no">No</string>
+
+       <string name="nearest_station_popup_favorite_removed">Favorit suprimit</string>
+
+       <string name="config">Paràmetres</string>
+
+       <string name="btn_add_to_fav">Definir com a favorit</string>
+       <string name="btn_remove_from_fav">Suprimir dels favorits</string>
+
+       <string name="btn_back">Enrere</string>
+
+       <string name="change_network_update">
+           Després d\'haber modificat la xarxa, és recomanable actualitzar la llista d\'estacions (aquesta acció es pot realitzar igualment des de la finestra Paràmetres).
+	 \n Vol actualitzar en aquest moment la llista d\'estacions?
+       </string>
+
+       <!-- Startup option -->
+       <string name="pref_startup_category_title">Inici</string>
+       <string name="pref_startup_starttab_title">Finestra per defecte</string>
+       <string name="pref_startup_starttab_subtitle">Escollir la finestra per defecte de la aplicació.
+       </string>
+
+       <!-- Après b36 -->
+       <string name="favorite_new_name">Nou nom</string>
+       <string name="favorite_new_name_reset">Reiniciar</string>
+
+       <string name="favorite_ctx_menu_rename">Canviar el nom</string>
+       <string name="favorite_ctx_menu_view_on_map">Veure en el mapa</string>
+       <string name="favorite_ctx_menu_delete">Esborrar el favorit\n</string>
+
+
+       <string name="favorite_ctx_menu_change_color">Canviar el color del favorit </string>
+       <string name="favorite_dialog_new_color">Nou color</string>
+
+       <!-- apres b39 -->
+       <string name="pref_favorites_category_title">Favorits</string>
+       <string name="pref_favorites_sortbycolor_title">Organitzar segons el ordre de colors</string>
+       <string name="pref_favorites_sortbycolor_subitle">El ordre de colors roman fixe (verd, blau, rosa, taronja)</string>
+
+       <string name="map_ctx_menu_molib">Veure els voltants amb Molib</string>
+
+
+</resources>

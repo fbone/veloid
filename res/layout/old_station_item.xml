@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.xirgonium.android.view.FavoriteItemView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+>
+    <LinearLayout
+        android:id="@+id/si_list_station_item"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+    >
+
+        <TextView
+            android:id="@+id/si_station_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip"
+            android:textColor="@color/item_odd_text_color"
+            android:textStyle="bold"
+            android:paddingTop="10px"
+        />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+        >
+
+            <TextView
+                android:id="@+id/si_free_slots_label"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/si_free_slots"
+                android:layout_marginLeft="10dip"
+                android:textColor="@color/item_odd_text_color"
+            />
+
+            <TextView
+                android:id="@+id/si_free_slots_val"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:text="15"
+                android:textColor="@color/item_odd_text_color"
+            />
+            <TextView
+                android:id="@+id/space"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" "
+            />
+
+
+            <TextView
+                android:id="@+id/si_available_bikes_label"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/si_available_bikes"
+                android:layout_marginLeft="10dip"
+                android:textColor="@color/item_odd_text_color"
+            />
+            <TextView
+                android:id="@+id/si_available_bikes_val"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:layout_marginLeft="15dip"
+                android:textColor="@color/item_odd_text_color"
+                android:paddingBottom="10px"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+</com.xirgonium.android.view.FavoriteItemView>

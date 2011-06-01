@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.xirgonium.android.view.FavoriteItemView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+>
+    <LinearLayout
+        android:id="@+id/si_list_station_item"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_weight="1"
+    >
+
+        <EditText
+            android:id="@+id/si_station_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip"
+            android:textColor="@color/item_odd_text_color"
+            android:textStyle="normal"
+            android:textSize="17px"
+            android:paddingTop="10px"
+            android:editable="true"
+            android:background="#00123444"
+            android:cursorVisible="false"
+        />
+    </LinearLayout>
+
+    <com.xirgonium.android.view.FavoriteItemView
+        android:id="@+id/si_bikes_and_slot_info"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+    >
+        <TextView
+            android:id="@+id/si_available_bikes_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/item_odd_text_color"
+            android:width="57px"
+            android:textSize="17px"
+        />
+        <TextView
+            android:id="@+id/space"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textStyle="bold"
+             android:gravity="center_vertical|center_horizontal"
+            android:text="|"
+            android:textColor="@color/item_odd_text_color"
+            android:width="5px"
+            android:textSize="17px"
+        />
+
+        <TextView
+            android:id="@+id/si_free_slots_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5px"
+            
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/item_odd_text_color"
+            android:width="57px"
+            android:textSize="17px"
+        />
+    </com.xirgonium.android.view.FavoriteItemView>
+
+
+</com.xirgonium.android.view.FavoriteItemView>

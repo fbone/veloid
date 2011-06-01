@@ -1,0 +1,208 @@
+<!--
+---- 
+Application for bike sharing users:
+* Bike(s)/slot(s) nearby.
+* Favorite stations
+* Save money with the timer. 
+
+US: Washington (SmartbikeDC)
+UK: London (Oybike)
+Germany, Austria: Nextbike
+France: 17 cities (velib included)
+Spain: 3 cities
+Italy: 4 cities
+Brazil:Rio
+Canada:Bixi
+
+keywords:velib,velov,levelo,nextbike,bixi
+
+
+---
+
+Veloid vous facilite l'usage des rŽseaux de vŽlo-partage:
+- Affichage direct de favoris
+- Minuterie gŽolocalisŽe
+- un(des) vŽlo(s) ou place(s) proche(s).
+
+== 1.0bXX NEW DESIGN == 
+
+velib, velov, veloToulouse, le velo, bip!, velodi, velo+, veol, velocite, bicloo, velostan, velomagg, velo2, velopop, cyclic, velobleu, velostan, yello
+
+---
+
+1.0.51
+- Changement sur le positionnement GPS
+- AJout du rŽseau Veloceau de Vannes
+- Utilisation des APIs Oybike pour Nice et Vannes
+
+1.0.50
+- Correction d'une boulette velov/yello
+- Correction de nom sur Bicing Barcelona
+
+1.0.48
+Add Yello La Rochelle
+Correct a bug in the 3G connexion for VCub 
+
+1.0.47
+Oybike : add the key in the API interface
+
+1.0.46
+Oybike : remove London and use recommended APIs
+Rennes : use recommended APIs
+
+1.0.45
+Correct bicing barcelona
+
+1.0.44(22/02/2010)
+Add Bordeaux
+
+1.0.43
+Remove ads for QVGA Screens
+
+1.0.42
+Correction d'un changement sur le rŽseau Bizi Zaragossa
+Support de tous les types d'Žcrans
+
+1.0.40
+Ajout du tri par couleur
+
+1.0.39beta
+Corrige un bug sur le rŽseau Bixi
+
+1.0.38beta
+Changement de la carte
+
+1.0.37beta
+Correction d'un bug, sur le rŽseau Velov, au chargement de la liste des stations du rŽseau, les favoris Žtaient perdus.
+Ajout du menu contextuel sur les favoris
+Correction d'un bug lors du changement de rŽseau (recherche de favoris + carte)
+
+1.0.36beta
+Changement de la taille des caractres pour l'affichage des favoris
+
+1.0.33
+Add Velcom network
+
+1.0.32
+Correct a bug when adding a favorite in the map
+Correct a bug when displaying information about Veloid
+
+1.0.31
+Correct a bug in the map
+
+1.0.30 29/08/2009
+NEW INTERFACE
+
+
+0.9.29(28/07/09)
+Ajout de Velostar ˆ Rennes
+Correction d'un bug sur les rŽseau type Velib (charge mŽmoire pour les gros rŽseaux)
+
+0.9.28(21/07/09)
+Correction carte non affichŽe
+
+0.9.27(19/07/09)
+VeloBleu Nice 
+Spanish bug corrected (Bicicletas trop long)
+
+0.9.26
+Cyclic ROuen
+
+0.9.25 (11/07/2009)
+Correct a GPS bug (switch off GPS when closing the application)
+Add Lausanne Roule
+Correct a bug on maps (when clicking recenter buttons)
+
+0.9.24 (05/07/2009)
+Add Velopop from Avignon
+
+
+0.9.23 (21/05/2009)
+Add Villo from Bruxelles
+
+
+0.9.22 (12/05/2009)
+Correct an interface change on Samba
+Add Bixi from Montreal
+New API for Velomagg
+
+0.9.21(05/05/2009)
+Corrige un bug graphique
+
+0.9.20(05/05/2009)
+Ajout du réseau Velo2
+(gestion de l'open pour les réseau JCDecault)
+
+0.9.16 (26/04/2009)
+- Ajout du réseau Velomagg de Montpellier
+
+0.9.15 (26/04/2009)
+- Carte plus sexy
+- Correction (bug : dans certains cas la touche de sortie de l'application ne fonctionnait pas)
+
+0.9.14(25/04/2009)
+- Correction de l'affichage après un changement de réseau (favoris et nom du réseau dans l'écran principal)
+- Change SDK version
+
+0.9.13 (24/04/2009)
+- Apport de la traduction en allemand
+- Ajout des villes en périphérie de Paris
+- Ajout d'une boussole sur la carte
+- Adapt to a change in  Bicing interface
+
+0.9.12(20/04/09)
+- Correction sur Lyon
+
+O.9.11(11/04/09)
+ - Correction on favorite list update
+
+0.9.10(08/04/09)
+ - Improved GUI
+ - Improved GPS behaviour
+ 
+0.9.9
+ - Correction for Bizi
+ - Deutch Localisation (Thanks Nextbike for that )
+ - Minor correction when selecting a song
+
+0.9.8(18/02/2009)
+ - Bizi (Zaragoza) added
+ - Add the possibility to select a ringtone for the alarm sound alert
+ - NB : Remove the stations in xml file without spot=1
+
+0.9.7 (31/12/2008)
+ - bikeMi network - Milano - supported
+
+0.9.6
+ - Easier management of networks (one configuration file)
+ - Samba - Rio de Janeiro - added
+
+0.9.5
+ - Add the quick start guide
+ - Pop-ups for the first launch are in the same style
+ - Change the look and feel of the stations displayed on the map
+ 
+0.9.4
+  - Allow to save a private name for the station.
+  - Correction on the timer
+  - New icons for express searches
+  - Add Parma and Savigliano in Italy
+
+0.9.3 (11/11/2008) :
+ - change EULA to be compliant with the web site
+ - add a scroll view when entering data with keyboard to manage the landscape mode.
+ - add Roma'n'Bike (bike sharing from Roma in Veloid)
+
+0.9.2 :
+ - add Nancy as new network.  
+ - increase timeout
+ - change EULA
+ - add Nancy as new network.  
+ - selection of the network for the first execution
+
+0.9.1 : 
+ - add EULA when application start
+ 
+0.9.0 : 
+ - first version on market
+ -->

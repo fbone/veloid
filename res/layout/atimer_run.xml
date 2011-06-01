@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+            android:layout_width="fill_parent"
+             xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_weight="1">
+
+    <TextView
+        android:id="@+id/timer_run_remaining_lbl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/timer_run_remaining_lbl"
+        android:textSize="20px"
+        android:textStyle="bold"
+        android:paddingBottom="20px"
+        android:paddingTop="10px"
+        android:paddingLeft="5px" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/timerRunCurrentMinuteValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:textSize="60px"
+            android:textStyle="bold"
+            android:width="100px"
+            android:text="--"
+            android:typeface="monospace"
+            android:textColor="@color/list_bottom_color"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:id="@+id/timer_run_current_separator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:textSize="60px"
+            android:width="20px"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="@color/list_bottom_color"
+            android:gravity="center_vertical|center_horizontal"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/timerRunCurrentSecondeValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:textSize="60px"
+            android:text="--"
+            android:textStyle="bold"
+            android:width="100px"
+            android:typeface="monospace"
+            android:textColor="@color/list_bottom_color"
+            android:gravity="center_vertical|center_horizontal" />
+    </LinearLayout>
+    <TableLayout
+        android:id="@+id/timer_run_filter_set"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:stretchColumns="0,1"
+        android:paddingTop="20dip"
+        android:paddingBottom="20px">
+
+        <TableRow>
+            <TextView
+                android:text="@string/timer_run_filter_av_bike_lbl"
+                android:padding="5dip"
+                android:textColor="@color/list_bottom_color"
+                android:textSize="20px"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/timer_run_filter_av_bikes"
+                android:text="@string/timer_run_filter_not_filtered"
+                android:padding="3dip"
+                android:gravity="right"
+                android:textSize="20px"
+                android:textColor="@color/list_bottom_color" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/timer_run_filter_free_slot_lbl"
+                android:padding="3dip"
+                android:textSize="20px"
+                android:textStyle="bold"
+                android:textColor="@color/list_bottom_color" />
+            <TextView
+                android:id="@+id/timer_run_filter_free_slots"
+                android:text="@string/timer_run_filter_not_filtered"
+                android:padding="3dip"
+                android:gravity="right"
+                android:textSize="20px"
+                android:textColor="@color/list_bottom_color" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/timer_run_geoloc_lbl"
+                android:padding="3dip"
+                android:textSize="20px"
+                android:textStyle="bold"
+                android:textColor="@color/list_bottom_color" />
+            <TextView
+                android:gravity="right"
+                android:id="@+id/timer_run_geoloc_at_end"
+                android:text="@string/timer_run_not_activated"
+                android:padding="3dip"
+                android:textSize="20px"
+                android:textColor="@color/list_bottom_color" />
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|bottom"
+        android:layout_weight="2">
+
+        <Button
+            android:id="@+id/timerRunBtnStop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stop_timer"
+            android:textSize="20px"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView
+            android:layout_width="fill_parent"
+             xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="wrap_content">
+<LinearLayout
+   
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_weight="1">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/timer_set_timer_label"
+        android:textSize="20px"
+        android:textStyle="bold"
+        android:paddingBottom="10px"
+        android:paddingTop="10px"
+        android:paddingLeft="5px" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|center_vertical">
+
+        <ImageButton
+            android:id="@+id/timerDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_minus"
+            android:layout_marginRight="10dip"
+            android:background="@color/map_station_item_transparent" />
+
+        <TextView
+            android:id="@+id/timerMinutes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dip"
+            android:editable="false"
+            android:textSize="60px"
+            android:textStyle="bold"
+            android:textColor="@color/green_one"
+            android:gravity="center_horizontal" />
+
+        <ImageButton
+            android:id="@+id/timerUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_plus"
+            android:background="@color/map_station_item_transparent"
+            android:layout_marginLeft="10dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="0px">
+        <CheckBox
+            android:id="@+id/timerSetGeolocalizeAtEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20px"
+            android:text="@string/timer_set_geolocalize_at_end"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/timerSetActivateFilter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20px"
+            android:text="@string/timer_set_activate_filter_cb"></CheckBox>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="0px"
+            android:gravity="right"
+            android:paddingBottom="0px">
+
+            <Spinner
+                android:id="@+id/timerSetFilterUnit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawSelectorOnTop="true"
+                android:clickable="false"
+                android:textColor="@color/disabled"
+                android:textSize="20px"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/timerSetFilterType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawSelectorOnTop="true"
+                android:clickable="false"
+                android:textColor="@color/disabled"
+                android:textSize="20px"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|bottom"
+        android:layout_weight="2">
+        <Button
+            android:id="@+id/timerSetStartBtn"
+            android:text="@string/timer_set_start_timer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20px"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.xirgonium.android.veloid" android:versionName="1.0.52" android:versionCode="52">
+	<uses-sdk android:minSdkVersion="1" android:targetSdkVersion="4" />
+	
+	
+
+	<application android:icon="@drawable/icon">
+		<uses-library android:name="com.google.android.maps" />
+		<activity android:name=".config.VeloidPreferences"></activity>
+
+        <!-- Veloid 2 -->
+
+		<activity android:name=".test.NetworkTest" android:label="Test"
+			android:icon="@drawable/icon">
+			<intent-filter>
+<action android:name="android.intent.action.MAIN" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".veloid2.VeloidMain" android:icon="@drawable/icon"
+			android:label="Veloid">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+
+		</activity>
+		<activity android:name=".veloid2.favorite.FavoriteListActivity"></activity>
+		<activity android:name=".veloid2.favorite.FavoriteAddEnterInfoActivity"></activity>
+		<activity android:name=".veloid2.favorite.FavoriteAddListActivity"></activity>
+		<activity android:name=".veloid2.favorite.FavoriteRemoveListActivity"></activity>
+		<activity android:name=".veloid2.search.SearchForBikesOrSlotsActivity"></activity>
+		<activity android:name=".veloid2.map.VeloidMap"></activity>
+		<activity android:name=".veloid2.timer.Timer"></activity>
+
+		<service android:name=".veloid2.timer.TimerService">
+			<intent-filter>
+				<action
+					android:name="com.xirgonium.android.veloid.veloid2.timer.ITimerServiceMain2"></action>
+			</intent-filter>
+		</service>
+
+		<!-- The application's publisher ID assigned by AdMob -->
+		<meta-data android:value="..." android:name="ADMOB_PUBLISHER_ID" />
+
+	</application>
+	<uses-permission xmlns:android="http://schemas.android.com/apk/res/android"
+		android:name="android.permission.INTERNET">
+	</uses-permission>
+	<uses-permission xmlns:android="http://schemas.android.com/apk/res/android"
+		android:name="android.permission.ACCESS_FINE_LOCATION">
+	</uses-permission>
+	<uses-permission xmlns:android="http://schemas.android.com/apk/res/android"
+		android:name="android.permission.ACCESS_COARSE_LOCATION">
+	</uses-permission>
+	<uses-permission xmlns:android="http://schemas.android.com/apk/res/android"
+		android:name="android.permission.PERSISTENT_ACTIVITY">
+	</uses-permission>
+	<uses-permission xmlns:android="http://schemas.android.com/apk/res/android"
+		android:name="android.permission.VIBRATE">
+	</uses-permission>
+
+<supports-screens android:largeScreens="true" android:normalScreens="true" android:anyDensity="true" android:smallScreens="true"></supports-screens>
+</manifest>

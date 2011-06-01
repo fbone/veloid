@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@color/list_top_color"
+	android:id="@+id/about_container">
+
+	<LinearLayout
+		android:id="@+id/input_dialog_container"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"		
+		android:gravity="center_horizontal|center_vertical"
+		>
+
+<TextView
+        android:id="@+id/version"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_version"
+        android:background="@android:drawable/editbox_background"
+        android:singleLine="true" 
+        android:textColor="@color/list_top_color"
+        android:paddingBottom="5dip"/>
+
+		<TextView
+		android:id="@+id/about_dialog_done_by"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:text="@string/about_done_by"
+        android:textColor="@color/list_top_color"        
+		android:background="@android:drawable/editbox_background"
+		android:singleLine="true" />        
+	<TextView
+        android:id="@+id/my_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_cyril_gervais"
+        android:background="@android:drawable/editbox_background"
+        android:singleLine="true" 
+        android:textColor="@color/list_top_color"
+        android:paddingBottom="5dip"/>
+    
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_info"
+        android:textColor="@color/list_top_color"
+        android:background="@android:drawable/editbox_background" 
+        android:paddingBottom="5dip"/>
+        
+        
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/list_bottom_color"
+        android:gravity="center_horizontal|center_vertical">
+
+		<ImageButton
+			android:id="@+id/about_dialog_btn_valid"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"			
+			android:src="@drawable/ok" />
+    </LinearLayout>
+
+</LinearLayout>

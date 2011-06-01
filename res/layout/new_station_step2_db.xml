@@ -1,0 +1,80 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:id="@+id/new_station_s2_main_layout">
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/title_replacement_container"
+    android:gravity="left|center_vertical"
+    android:background="@color/list_top_color">
+    <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/bookmark_add_big"
+      android:padding="5px"
+      android:scaleType="fitXY" />
+
+    <TextView
+      android:id="@+id/add_fav_title"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:paddingTop="5px"
+      android:paddingBottom="5px"
+      android:textColor="@color/title_txt_color"
+      android:background="@color/list_top_color"
+      android:text="@string/new_station_s1_title"
+      android:textSize="40px" />
+  </LinearLayout>
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:background="@color/list_top_color">
+    <TextView
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:paddingBottom="10px"
+      android:gravity="right"
+      android:textColor="@color/title_txt_color"
+      android:textSize="20px"
+      android:paddingRight="5px"
+      android:text="@string/new_station_s1_sub_title" />
+  </LinearLayout>
+
+  <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:layout_weight="1"
+    android:id="@+id/new_station_s2_scroll">
+    <RadioGroup
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:id="@+id/new_station_s2_rgrp_station">
+    </RadioGroup>
+  </ScrollView>
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/list_bottom_color"
+    android:gravity="center_horizontal|center_vertical">
+    <ImageButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/new_station_s2_btn_valid"
+      android:src="@drawable/ok" />
+
+    <ImageButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/new_station_s2_btn_back"
+      android:src="@drawable/cancel" />
+  </LinearLayout>
+</LinearLayout>

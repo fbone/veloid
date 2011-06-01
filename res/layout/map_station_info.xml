@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xirgonium.android.map.StationInformationView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/map_pin"><!--   android:background="@drawable/map_pin"-->
+    <TableRow>
+        <LinearLayout
+            android:id="@+id/map_station_addr_container"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/map_station_address"
+                android:gravity="left"
+                android:textSize="10px"
+                android:paddingTop="3px"
+                android:paddingBottom="3px"
+                android:paddingRight="5px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/map_station_item_text" />
+            <ImageButton
+                android:id="@+id/map_station_add_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/map_station_item_transparent" 
+                android:src="@drawable/bookmark_add_16x16"/><!--   android:src="@drawable/bookmark_add_16x16"-->
+        </LinearLayout>
+    </TableRow>
+    <TableRow>
+        <LinearLayout
+            android:id="@+id/map_station_info_container"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/map_station_available_bike"
+                android:gravity="left"
+                android:textSize="10px"
+                android:paddingLeft="0px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/map_station_item_text" />
+            <TextView
+                android:id="@+id/map_station_free_slot"
+                android:gravity="right"
+                android:textSize="10px"
+                android:padding="1px"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/map_station_item_text" />
+        </LinearLayout>
+    </TableRow>
+
+</com.xirgonium.android.map.StationInformationView>
